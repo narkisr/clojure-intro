@@ -13,7 +13,7 @@
 
     <link type="text/css" rel="stylesheet" href="css/shCoreDefault.css"/>
     <link type="text/css" rel="stylesheet" href="css/shClojureExtra.css"/>
-<link type="text/css" rel="stylesheet" href="css/syntax.css"/>
+    <link type="text/css" rel="stylesheet" href="css/syntax.css"/>
 
 
   </head>
@@ -33,25 +33,31 @@
 	</div>
 
 	<div id="code example" class="step" data-x="500" data-y="1500" >
-         <div>
-         <pre class="brush: clojure;">
-            (comment (def a {:key "val"}))
-            (println "foo")
-            (for [i bla] (filter #(= % 1) i)
+	   <div>
+	   <pre class="brush: clojure;">
+		(comment (def a {:key "val"}))
+		(println "foo")
+		(for [i bla] (filter #(= % 1) i)
 	  </pre>
-        </div>
 	</div>
-
     </div>
 
-    <script src="js/impress.js"></script>
-    <script>impress();</script>
-    <script type="text/javascript" src="js/shCore.js"></script>
-    <script type="text/javascript" src="js/shBrushClojure.js"></script>
-    <script type="text/javascript"> SyntaxHighlighter.all(); </script>
+  </div>
+
+  <script src="js/impress.js"></script>
+  <script>impress();</script>
+  <script type="text/javascript" src="js/shCore.js"></script>
+  <script type="text/javascript" src="js/shBrushClojure.js"></script>
+  <script type="text/javascript"> 
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['smart-tabs'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;
+    SyntaxHighlighter.all();
+   
+    </script>
 
 
-  </body>
+</body>
 </html>
 
 
