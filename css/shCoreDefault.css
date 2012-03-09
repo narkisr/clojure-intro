@@ -171,7 +171,6 @@
 }
 .syntaxhighlighter.printing .line .number {
   color: #bbbbbb !important;
-display:none !important
 }
 .syntaxhighlighter.printing .line .content {
   color: black !important;
@@ -283,34 +282,28 @@ display:none !important
   color: black !important;
 }
 .syntaxhighlighter .plain, .syntaxhighlighter .plain a {
-  color:  #dc322f  !important; /*brred*/
+  color: black !important;
 }
 .syntaxhighlighter .comments, .syntaxhighlighter .comments a {
-  color: #839496 !important;/*solarized bblue*/
+  color: #008200 !important;
 }
 .syntaxhighlighter .string, .syntaxhighlighter .string a {
-  color: #2aa198 !important;
+  color: blue !important;
 }
 .syntaxhighlighter .keyword {
-  color:#cb4b16 !important;
-}
-.syntaxhighlighter .undefined{
-  color:#dc322f !important;
+  color: #006699 !important;
 }
 .syntaxhighlighter .preprocessor {
   color: gray !important;
 }
 .syntaxhighlighter .variable {
-  color: #93a1a1 !important; /*brcyan*/
+  color: #aa7700 !important;
 }
 .syntaxhighlighter .value {
-  color: #93a1a1 !important; /*brcyan*/
+  color: #009900 !important;
 }
 .syntaxhighlighter .functions {
-  color: #93a1a1 !important; /*brcyan*/
-}
-.syntaxhighlighter .symbol{
-  color: #93a1a1 !important; /*brcyan*/
+  color: #ff1493 !important;
 }
 .syntaxhighlighter .constants {
   color: #0066cc !important;

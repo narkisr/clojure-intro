@@ -10,10 +10,10 @@
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:regular,semibold,italic,italicsemibold|PT+Sans:400,700,400italic,700italic|PT+Serif:400,700,400italic,700italic" rel="stylesheet" />
 
     <link href="css/impress-demo.css" rel="stylesheet" />
-
     <link type="text/css" rel="stylesheet" href="css/shCoreDefault.css"/>
     <link type="text/css" rel="stylesheet" href="css/shClojureExtra.css"/>
     <link type="text/css" rel="stylesheet" href="css/syntax.css"/>
+    <link type="text/css" rel="stylesheet" href="css/shCoreSolarize.css"/>
 
 
   </head>
@@ -35,6 +35,7 @@
 	<div id="code example" class="step" data-x="500" data-y="1500" >
 	   <div>
 	   <pre class="brush: clojure;">
+		(def bla 1)
 		(comment (def a {:key "val"}))
 		(println "foo")
 		(for [i bla] (filter #(= % 1) i)
@@ -53,11 +54,10 @@
     SyntaxHighlighter.defaults['smart-tabs'] = false;
     SyntaxHighlighter.defaults['toolbar'] = false;
     SyntaxHighlighter.all();
-   
     </script>
 
 
-</body>
+  </body>
 </html>
 
 

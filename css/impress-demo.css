@@ -62,7 +62,7 @@ table {
 body {
     font-family: 'PT Sans', sans-serif;
     min-height: 740px;
-    background-color: #fdf6e3;
+    background-color: #839496 ;
     -webkit-font-smoothing: antialiased;
 }
 
@@ -440,7 +440,7 @@ body     { pointer-events: none; }
 
     border-radius: 10px;
 
-    background-color: #586e75 ;
+    background-color: #859900;
 
     box-shadow: 0 2px 6px rgba(0, 0, 0, .1);
     border: 1px solid rgba(0, 0, 0, .3);
