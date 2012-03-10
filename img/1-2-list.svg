@@ -1,0 +1,457 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.2 r9819"
+   inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/1-2-list.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90"
+   sodipodi:docname="1-2-list.svg">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.6829665"
+     inkscape:cx="569.66622"
+     inkscape:cy="1015.0054"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="1918"
+     inkscape:window-height="1054"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="0"
+     showguides="true"
+     inkscape:guide-bbox="true" />
+  <defs
+     id="defs4">
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1Lend"
+       style="overflow:visible;">
+      <path
+         id="path5512"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1.0pt;marker-start:none;"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <mask
+       maskUnits="userSpaceOnUse"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="mask3351">
+      <image
+         width="1"
+         height="1"
+         xlink:href="data:image/png;base64,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"
+         id="image3353" />
+    </mask>
+    <mask
+       maskUnits="userSpaceOnUse"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="mask3351-0">
+      <image
+         width="1"
+         height="1"
+         xlink:href="data:image/png;base64,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"
+         id="image3353-2" />
+    </mask>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-2"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5512-6"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-6"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5512-0"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <mask
+       maskUnits="userSpaceOnUse"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="mask3351-5">
+      <image
+         width="1"
+         height="1"
+         xlink:href="data:image/png;base64,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"
+         id="image3353-4" />
+    </mask>
+    <filter
+       id="filter6566"
+       inkscape:label="Drop shadow"
+       width="1.5"
+       height="1.5"
+       x="-.25"
+       y="-.25">
+      <feGaussianBlur
+         id="feGaussianBlur6568"
+         in="SourceAlpha"
+         stdDeviation="2"
+         result="blur" />
+      <feColorMatrix
+         id="feColorMatrix6570"
+         result="bluralpha"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 " />
+      <feOffset
+         id="feOffset6572"
+         in="bluralpha"
+         dx="4"
+         dy="4"
+         result="offsetBlur" />
+      <feMerge
+         id="feMerge6574">
+        <feMergeNode
+           id="feMergeNode6576"
+           in="offsetBlur" />
+        <feMergeNode
+           id="feMergeNode6578"
+           in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <filter
+       id="filter6580"
+       inkscape:label="Drop shadow"
+       width="1.5"
+       height="1.5"
+       x="-.25"
+       y="-.25">
+      <feGaussianBlur
+         id="feGaussianBlur6582"
+         in="SourceAlpha"
+         stdDeviation="2"
+         result="blur" />
+      <feColorMatrix
+         id="feColorMatrix6584"
+         result="bluralpha"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 " />
+      <feOffset
+         id="feOffset6586"
+         in="bluralpha"
+         dx="4"
+         dy="4"
+         result="offsetBlur" />
+      <feMerge
+         id="feMerge6588">
+        <feMergeNode
+           id="feMergeNode6590"
+           in="offsetBlur" />
+        <feMergeNode
+           id="feMergeNode6592"
+           in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <mask
+       maskUnits="userSpaceOnUse"
+       x="0"
+       y="0"
+       width="1"
+       height="1"
+       id="mask3351-7">
+      <image
+         width="1"
+         height="1"
+         xlink:href="data:image/png;base64,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"
+         id="image3353-9" />
+    </mask>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-0"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5512-2"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <filter
+       color-interpolation-filters="sRGB"
+       id="filter6580-5"
+       inkscape:label="Drop shadow"
+       width="1.5"
+       height="1.5"
+       x="-0.25"
+       y="-0.25">
+      <feGaussianBlur
+         id="feGaussianBlur6582-0"
+         in="SourceAlpha"
+         stdDeviation="2"
+         result="blur" />
+      <feColorMatrix
+         id="feColorMatrix6584-0"
+         result="bluralpha"
+         type="matrix"
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 " />
+      <feOffset
+         id="feOffset6586-6"
+         in="bluralpha"
+         dx="4"
+         dy="4"
+         result="offsetBlur" />
+      <feMerge
+         id="feMerge6588-9">
+        <feMergeNode
+           id="feMergeNode6590-6"
+           in="offsetBlur" />
+        <feMergeNode
+           id="feMergeNode6592-2"
+           in="SourceGraphic" />
+      </feMerge>
+    </filter>
+    <marker
+       inkscape:stockid="Arrow1Lend"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-6-3"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path5512-0-9"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1LendZ"
+       orient="auto"
+       refY="0.0"
+       refX="0.0"
+       id="Arrow1LendZ"
+       style="overflow:visible;">
+      <path
+         id="path4344"
+         d="M 0.0,0.0 L 5.0,-5.0 L -12.5,0.0 L 5.0,5.0 L 0.0,0.0 z "
+         style="marker-start:none;stroke:#6d9cbe;stroke-width:1.0pt;fill:#6d9cbe;fill-rule:evenodd"
+         transform="scale(0.8) rotate(180) translate(12.5,0)" />
+    </marker>
+    <marker
+       inkscape:stockid="Arrow1Lend-6d"
+       orient="auto"
+       refY="0"
+       refX="0"
+       id="Arrow1Lend-6d"
+       style="overflow:visible">
+      <path
+         inkscape:connector-curvature="0"
+         id="path4505"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         style="marker-start:none;stroke:#6d9cbe;stroke-width:1pt;fill:#6d9cbe;fill-rule:evenodd"
+         transform="matrix(-0.8,0,0,-0.8,-10,0)" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       transform="matrix(1.5197626,0,0,-1.4818109,395.31091,338.05504)"
+       id="g4626-1"
+       inkscape:export-filename="/home/ronen/code/clojure-intro/sequences-and-ds/path4736-5.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         transform="matrix(88.00965,0,0,88.0516,22.816298,77.984293)"
+         id="g3349-5">
+        <image
+           id="image3355-6"
+           mask="url(#mask3351-0)"
+           xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAABMCAYAAADHl1ErAAAABHNCSVQICAgIfAhkiAAAALlJREFUeJzt0MENwCAQwLCD/XduVyAvhGRPEGXNzDcc27cDXmNYZFhkWGRYZFhkWGRYZFhkWGRYZFhkWGRYZFhkWGRYZFhkWGRYZFhkWGRYZFhkWGRYZFhkWGRYZFhkWGRYZFhkWGRYZFhkWGRYZFhkWGRYZFhkWGRYZFhkWGRYZFhkWGRYZFhkWGRYZFhkWGRYZFhkWGRYZFhkWGRYZFhkWGRYZFhkWGRYZFhkWGRYZFhkWGRYZFj0A3BvAZcL6NRLAAAAAElFTkSuQmCC"
+           transform="matrix(1,0,0,-1,0,1)"
+           height="1"
+           width="1" />
+      </g>
+      <path
+         inkscape:connector-curvature="0"
+         id="path3709-5"
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+         d="m 88.116349,145.50936 c 12.210381,-12.2161 12.210381,-32.0224 0,-44.2386 -12.21035,-12.216305 -32.00722,-12.216305 -44.21757,0 -12.21042,12.2162 -12.21042,32.0225 0,44.2386 12.21035,12.2163 32.00722,12.2163 44.21757,0" />
+      <g
+         transform="matrix(1.158022,0,0,-1.158574,-125.06597,474.84456)"
+         id="g3711-0">
+        <path
+           inkscape:connector-curvature="0"
+           id="path3713-0"
+           style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"
+           d="m 184.0919,284.2592 c 10.5442,10.5441 10.5442,27.6395 0,38.1837 -10.5442,10.5442 -27.6396,10.5442 -38.1838,0 -10.5442,-10.5442 -10.5442,-27.6396 0,-38.1837 10.5442,-10.5443 27.6396,-10.5443 38.1838,0" />
+      </g>
+    </g>
+    <path
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/1-2-list.png"
+       style="stroke-linejoin:miter;opacity:1;marker-end:url(#Arrow1LendZ);stroke-opacity:1;stroke:#6d9cbe;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-width:1.57283664000000001;fill:none"
+       d="M 315.04085,106.6629 C 369.87441,56.444743 450.39953,62.629295 495.71028,105.76575"
+       id="path4736"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cc"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <g
+       id="g6119"
+       transform="matrix(1.3270911,0,0,1.3949247,-31.60279,-123.05809)"
+       inkscape:export-filename="/home/ronen/code/clojure-intro/sequences-and-ds/path4736-5.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <g
+         id="g4626"
+         transform="matrix(1.1451833,0,0,-1.0622874,185.09199,329.92085)">
+        <g
+           id="g3349"
+           transform="matrix(88.00965,0,0,88.0516,22.816298,77.984293)">
+          <image
+             inkscape:export-ydpi="90"
+             inkscape:export-xdpi="90"
+             inkscape:export-filename="/home/ronen/code/clojure-intro/sequences-and-ds/simple-list.png"
+             width="1"
+             height="1"
+             transform="matrix(1,0,0,-1,0,1)"
+             xlink:href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAEwAAABMCAYAAADHl1ErAAAABHNCSVQICAgIfAhkiAAAALlJREFUeJzt0MENwCAQwLCD/XduVyAvhGRPEGXNzDcc27cDXmNYZFhkWGRYZFhkWGRYZFhkWGRYZFhkWGRYZFhkWGRYZFhkWGRYZFhkWGRYZFhkWGRYZFhkWGRYZFhkWGRYZFhkWGRYZFhkWGRYZFhkWGRYZFhkWGRYZFhkWGRYZFhkWGRYZFhkWGRYZFhkWGRYZFhkWGRYZFhkWGRYZFhkWGRYZFhkWGRYZFhkWGRYZFhkWGRYZFj0A3BvAZcL6NRLAAAAAElFTkSuQmCC"
+             mask="url(#mask3351)"
+             id="image3355" />
+        </g>
+        <path
+           d="m 88.116349,145.50936 c 12.210381,-12.2161 12.210381,-32.0224 0,-44.2386 -12.21035,-12.216305 -32.00722,-12.216305 -44.21757,0 -12.21042,12.2162 -12.21042,32.0225 0,44.2386 12.21035,12.2163 32.00722,12.2163 44.21757,0"
+           style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:none"
+           id="path3709"
+           inkscape:connector-curvature="0" />
+        <g
+           id="g3711"
+           transform="matrix(1.158022,0,0,-1.158574,-125.06597,474.84456)">
+          <path
+             d="m 184.0919,284.2592 c 10.5442,10.5441 10.5442,27.6395 0,38.1837 -10.5442,10.5442 -27.6396,10.5442 -38.1838,0 -10.5442,-10.5442 -10.5442,-27.6396 0,-38.1837 10.5442,-10.5443 27.6396,-10.5443 38.1838,0"
+             style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-opacity:1;stroke-dasharray:none"
+             id="path3713"
+             inkscape:connector-curvature="0" />
+        </g>
+      </g>
+      <text
+         sodipodi:linespacing="125%"
+         id="text5950"
+         y="207.93362"
+         x="252.71428"
+         style="font-size:24px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         xml:space="preserve"><tspan
+           y="207.93362"
+           x="252.71428"
+           id="tspan5952"
+           sodipodi:role="line">1</tspan></text>
+    </g>
+    <text
+       xml:space="preserve"
+       style="font-size:32.6540451px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="497.45038"
+       y="164.0489"
+       id="text5954"
+       sodipodi:linespacing="125%"
+       inkscape:transform-center-y="-12.423544"
+       inkscape:export-filename="/home/ronen/code/clojure-intro/sequences-and-ds/path4736-5.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="scale(0.97538252,1.0252388)"><tspan
+         sodipodi:role="line"
+         id="tspan5956"
+         x="497.45038"
+         y="164.0489">2</tspan></text>
+    <rect
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.30018853999999995;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter6580)"
+       id="rect6201"
+       width="73.626511"
+       height="75.50248"
+       x="130.11217"
+       y="58.872532"
+       ry="6.6537166"
+       inkscape:export-filename="/home/ronen/code/clojure-intro/sequences-and-ds/path4736-5.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       xml:space="preserve"
+       style="font-size:24.41043663px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="183.35396"
+       y="90.197121"
+       id="text6203"
+       sodipodi:linespacing="125%"
+       inkscape:transform-center-y="-10.242366"
+       transform="scale(0.86871246,1.1511289)"
+       inkscape:export-filename="/home/ronen/code/clojure-intro/sequences-and-ds/path4736-5.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan6205"
+         x="183.35396"
+         y="90.197121">a</tspan></text>
+    <path
+       style="stroke-linejoin:miter;marker-end:url(#Arrow1Lend-6d);stroke-opacity:1;stroke:#6d9cbe;stroke-linecap:butt;stroke-width:1.36058521000000021px;fill:none"
+       d="m 204.33655,96.457067 c 69.70936,30.999913 69.70936,30.999913 69.70936,30.999913"
+       id="path6255"
+       inkscape:connector-curvature="0"
+       inkscape:export-filename="/home/ronen/code/clojure-intro/sequences-and-ds/path4736-5.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       style="fill:none;stroke:#6d9cbe;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:0.00392157"
+       d="M 241.24068,34.516634 C 418.90316,33.922445 418.90316,33.922445 418.90316,33.922445"
+       id="path4298"
+       inkscape:connector-curvature="0" />
+  </g>
+</svg>

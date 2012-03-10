@@ -69,7 +69,7 @@ div#asymp{
     transition:         0.5s;
 }
 
-#ds-overview.active .positioning {
+#ds-overview.active .skewing {
     -webkit-transform: skew(-200deg);
     -webkit-transition-delay: 1.5s;
 }

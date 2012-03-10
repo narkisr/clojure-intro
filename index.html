@@ -114,10 +114,25 @@
 	</div>
 
 	<div id="ds-overview" class="step" data-x="-3325" data-y="-2750" data-z="-3000" data-rotate="300" data-scale="1" > 
-	  <p> <div class="skewing">immutable<div>,
+	  <p> <div class="skewing">immutable</div>,
 	  <div class="rotating">persistent</div> and <div class="scaling">asymptotic</div> equivalent to mutable ds </p>
 	</div>
 	
+      <div id="code immutability" class="step" data-x="-3100" data-y="-2700" data-z="-3000" data-scale="1" data-rotate="300"> 
+	     <pre class="brush: clojure;">
+             (def a (list 1 2)) 
+
+             (def b (cons 3 a))
+            </pre>
+      </div>
+
+      <div id="1-2-list" class="step" data-x="-2800" data-y="-2400" data-z="-3000" data-scale="1" data-rotate="300">  
+	  <div id="container">
+	     <img src="img/1-2-list.png" /> 
+	  </div>
+	</div>
+
+
 	<div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
 	</div> 
 
