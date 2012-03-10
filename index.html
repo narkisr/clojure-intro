@@ -183,6 +183,38 @@
 	  Very usefull in <b>stream processing</b> 
 	</div>
 
+      <div id="code seq-ifc" class="step " data-x="4000" data-y="1400" data-z="-1100" data-scale="1" data-rotate="180"> 
+	     <pre class="brush: java;">
+package clojure.lang;
+
+public interface ISeq extends 
+             IPersistentCollection {
+
+Object first(); // first item
+
+ISeq next(); // rest of 
+
+ISeq more();
+
+ISeq cons(Object o);
+
+}   
+          </pre>
+      </div>
+
+      <div id="code seq-basics" class="step" data-x="3300" data-y="1400" data-z="-1200" data-rotate="180"> 
+	     <pre class="brush: clojure;">
+             (def a [2 3])
+
+             (first a); 2
+
+             (rest a); '(3)
+
+             (cons 1 a); '(1 2 3)
+            </pre>
+      </div>
+
+
 
 	<div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
 	</div> 
@@ -194,6 +226,7 @@
     <script>impress();</script>
     <script type="text/javascript" src="js/shCore.js"></script>
     <script type="text/javascript" src="js/shBrushClojure.js"></script>
+    <script type="text/javascript" src="js/shBrushJava.js"></script>
     <script type="text/javascript"> 
 	SyntaxHighlighter.defaults['gutter'] = false;
 	SyntaxHighlighter.defaults['smart-tabs'] = false;

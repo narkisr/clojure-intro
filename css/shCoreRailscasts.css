@@ -45,3 +45,11 @@
   color: #0066cc !important;
 }
 
+
+.syntaxhighlighter  .java.plain{
+  color: white !important;
+}
+
+.syntaxhighlighter  .java.keyword{
+  color: #CC7833  !important;
+}
