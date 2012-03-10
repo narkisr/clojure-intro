@@ -14,8 +14,7 @@
     <link type="text/css" rel="stylesheet" href="css/shClojureExtra.css"/>
     <link type="text/css" rel="stylesheet" href="css/syntax.css"/>
     <link type="text/css" rel="stylesheet" href="css/shCoreRailscasts.css"/>
-<link type="text/css" rel="stylesheet" href="css/text-styling.css"/>
-
+    <link type="text/css" rel="stylesheet" href="css/slides.css"/>
 
   </head>
   <body>
@@ -27,60 +26,90 @@
 	  <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser. Upcoming version 10 of Internet Explorer <i>should</i> also handle it.</p>
 	</div>
 
-	<div id="title" class="step slide" data-x="-1000" data-y="-1500" >
-
-            <b>Clojure introduction </b>
-            <blockquote>`` The way to functional epiphany , , </blockquote>
-	  
+	<div id="title" class="step title" data-x="-1000" data-y="-1500" data-scale="5">
+	  <b>Clojure introduction </b>
+	  <blockquote>`` The way to functional epiphany , , </blockquote>
 	</div>
 
-	<div id="code example" class="step" data-x="500" data-y="1500" >
-	   <div>
+
+	<div id="facts" class="step slide" data-x="-1000" data-y="200">
+	  <h1> History </h1>
+	  <ul>
+	    <li>Development started in 2007</li>
+	    <li>By Rich Hickey</li>
+	    <li>Currently at version 1.3</li>
+	  </ul>
+	</div>
+
+	<div id="Agenda" class="step slide" data-x="1000" data-y="200">
+	  <h1> Agenda </h1>
+	  <ul>
+	    <li>Basics</li>
+	    <li>Datastuctures, sequences</li>
+	    <li>Concurrency and state</li>
+	    <li>Abstraction and polymorphism</li> 
+	  </ul>
+	</div>
+
+	<div id="syntax" class="step title" data-x="1000" data-y="-1700" data-rotate="90">
+	  <b id="syntax">Syntax</b>
+	</div>
+
+	 <div id="code syntax" class="step" data-x="500" data-y="-1700" data-rotate="180"> 
 	   <pre class="brush: clojure;">
-		(def bla 1)
-		(comment (def a {:key "val"}))
-		(println "foo")
-		(for [i bla] (filter #(= % 1) i)
+		    '(); list
+		    []; vector
+		    #{}; set
+		    {}; hash 
+		    :keyword
+		    'symbol
 	  </pre>
+      </div>
+
+      <div id="functions" class="step title" data-x="1000" data-y="-2100" data-rotate="90">
+	  <b id="functions">&lambda; Functions</b>
 	</div>
-    </div>
 
-	<div id="code example2" class="step slide" data-x="1500" data-y="1500" >
-	   <div>
+	 <div id="code defs" class="step" data-x="500" data-y="-2100" data-rotate="180"> 
 	   <pre class="brush: clojure;">
-(ns gelfino.bootstrap
-  (:import
-    org.apache.log4j.Level
-    org.apache.log4j.LogManager)
-  (:use (gelfino udp streams))
-  (:require
-    [gelfino.statistics :as stats]))
+		(def plus1 (fn [x] (+ 1 x))) 
+		(defn plus1 [x] (+ 1 x))
+        </pre>
+      </div>
 
-(defn start-processing [host port]
-  (stats/collect)
-  (initialize-channels)
-  (connect host (Integer. port))
-  (feed-messages feed-fn))
+       <div id="code first-class" class="step" data-x="500" data-y="-2300" data-rotate="180"> 
+	     <pre class="brush: clojure;">
+              (defn add-with [f x]
+                "applies f on x"
+                 (f x))
 
-	   </pre>
-	 </div>
-     </div>
+             (add-with plus1 2); 3 
+             (add-with #(+ 1 %) 2); 3
+           </pre>
+      </div>
 
 
-   </div>
+	
 
-   <script src="js/impress.js"></script>
-   <script>impress();</script>
-   <script type="text/javascript" src="js/shCore.js"></script>
-   <script type="text/javascript" src="js/shBrushClojure.js"></script>
-   <script type="text/javascript"> 
-     SyntaxHighlighter.defaults['gutter'] = false;
-     SyntaxHighlighter.defaults['smart-tabs'] = false;
-     SyntaxHighlighter.defaults['toolbar'] = false;
-     SyntaxHighlighter.all();
-     </script>
-   </body>
- </html>
+
+    <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
+    </div> 
+
+  </div>
+  <script type="text/javascript" src="js/jquery.min.js"></script>
+  <script type="text/javascript" src="js/kerning.js"></script>
+  <script src="js/impress.js"></script>
+  <script>impress();</script>
+  <script type="text/javascript" src="js/shCore.js"></script>
+  <script type="text/javascript" src="js/shBrushClojure.js"></script>
+  <script type="text/javascript"> 
+    SyntaxHighlighter.defaults['gutter'] = false;
+    SyntaxHighlighter.defaults['smart-tabs'] = false;
+    SyntaxHighlighter.defaults['toolbar'] = false;
+    SyntaxHighlighter.all();
+    </script>
+  </body>
+</html>
 
 
 

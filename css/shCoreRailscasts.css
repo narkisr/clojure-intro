@@ -3,14 +3,16 @@
 }
 .syntaxhighlighter .comments, .syntaxhighlighter .comments a {
   color: #BC9458  !important;
-  font-style:italic;
+  font-style:italic !important;
 }
 .syntaxhighlighter .string, .syntaxhighlighter .string a {
   color: #A5C261 !important;
 }
+
 .syntaxhighlighter .keyword {
   color: #CC7833 !important;
 }
+
 .syntaxhighlighter .undefined{
   color:#CC7833  !important;
 }
@@ -22,12 +24,15 @@
 .syntaxhighlighter .variable {
   color:#6D9CBE !important; /*brcyan*/
 }
+
 .syntaxhighlighter .value {
   color:#A5C261 !important; 
 }
+
 .syntaxhighlighter .functions {
   color: white !important; 
 }
+
 .syntaxhighlighter .symbol{
   color: #0066cc !important; 
 }
@@ -36,7 +41,7 @@
   color: #6D9CBE !important;
 }
 
-
 .syntaxhighlighter  .color3{
   color: #0066cc !important;
 }
+
