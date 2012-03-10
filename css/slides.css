@@ -1,5 +1,4 @@
-/*The main title block*/
-.title{
+/*The main title block*/ .title{
     width: 600px;
     text-align: center;
     font-size: 60px;
@@ -41,8 +40,7 @@
 
 b#syntax {
  /* -word-transform: -transform-group(rotate(10deg)); */
- -letter-transform: none rotateY(180deg)  none  none none none; 
-}
+ -letter-transform: none rotateY(180deg)  none  none none none; }
 
 b#functions{
  /* -letter-transform: none none  none none none;  */
@@ -51,7 +49,37 @@ b#functions{
 }
 
 div#asymp{
- /* -word-transform: -transform-group(rotate(10deg)); */
  -letter-transform: -transform-group(rotate(90deg) translate3d(-35px,-155px,0)) ; 
 }
 
+#datastructures {
+  background-image:url('http://localhost:9292/img/ds-title.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: right;
+}
+
+#ds-overview {
+    /* width: 700px; */
+}
+
+#ds-overview div{
+    display: inline-block;
+    -webkit-transition: 0.5s;
+    transition:         0.5s;
+}
+
+#ds-overview.active .positioning {
+    -webkit-transform: skew(-200deg);
+    -webkit-transition-delay: 1.5s;
+}
+
+#ds-overview.active .rotating {
+    -webkit-transform: rotate(-10deg);
+    -webkit-transition-delay: 1.75s;
+}
+
+#ds-overview.active .scaling {
+    -webkit-transform: scale(0.7);
+    -webkit-transition-delay: 2s;
+}
