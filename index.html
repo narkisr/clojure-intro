@@ -15,6 +15,7 @@
     <link type="text/css" rel="stylesheet" href="css/syntax.css"/>
     <link type="text/css" rel="stylesheet" href="css/shCoreRailscasts.css"/>
     <link type="text/css" rel="stylesheet" href="css/slides.css"/>
+    <link type="text/css" rel="stylesheet" href="css/titles.css"/>
 
   </head>
   <body>
@@ -26,7 +27,7 @@
 	  <p>For the best experience please use the latest <b>Chrome</b>, <b>Safari</b> or <b>Firefox</b> browser. Upcoming version 10 of Internet Explorer <i>should</i> also handle it.</p>
 	</div>
 
-	<div id="title" class="step title" data-x="-1000" data-y="-1500" data-scale="5">
+	<div id="title" class="step title" data-x="-1000" data-y="-1500" data-scale="6">
 	  <b>Clojure introduction </b>
 	  <blockquote>`` The way to functional epiphany , , </blockquote>
 	</div>
@@ -118,7 +119,8 @@
 	  <div class="rotating">persistent</div> and <div class="scaling">asymptotic</div> equivalent to mutable ds </p>
 	</div>
 	
-      <div id="code immutability" class="step" data-x="-3300" data-y="-2800" data-scale="1" data-rotate="90"> 
+      <!-- immutable lists -->
+      <div id="code immutable-list" class="step " data-x="-3300" data-y="-2800" data-scale="1" data-rotate="90"> 
 	     <pre class="brush: clojure;">
              (def a (list 1 2)) 
 
@@ -126,10 +128,59 @@
             </pre>
       </div>
 
-      <div id="1-2-list" class="step" data-x="-3600" data-y="-3000" data-scale="1" data-rotate="90">  
+      <div id="1-2-list" class="step" data-x="-3600" data-y="-3200" data-scale="1" data-rotate="90">  
 	  <div id="container">
 	     <img src="img/1-2-list.png" /> 
 	  </div>
+	</div>
+
+      <div id="1-2-3-list" class="step" data-x="-3600" data-y="-2600" data-scale="1" data-rotate="90">  
+	  <div id="container">
+	     <img src="img/1-2-3-list.png" /> 
+	  </div>
+	</div>
+
+
+      <!--Immutable vectors -->
+      <div id="code immutable-vector" class="step " data-x="-4000" data-y="-2800" data-scale="1" data-rotate="90"> 
+	     <pre class="brush: clojure;">
+              (def a (into [] (range 32)))
+
+              (def b (conj a 33))
+
+              (def c (conj b (range (- 1025 33))) 
+            </pre>
+      </div>
+
+      <div id="vectore-32" class="step" data-x="-4300" data-y="-3600" data-rotate="90">  
+	     <img src="img/vector-32.png" /> 
+	</div>
+
+      <div id="vectore-33" class="step" data-x="-4300" data-y="-3000" data-rotate="90">  
+	     <img src="img/vector-33.png" /> 
+	</div>
+
+      <div id="vectore-1024" class="step" data-x="-4300" data-y="-2200" data-rotate="90">  
+	     <img src="img/vector-1024.png" /> 
+	</div>
+
+
+	<!--Sequences-->
+      <div id="sequences" class="step title" data-x="3500" data-y="1500" data-rotate="180" data-scale="7"> 
+	  <div id="container">
+	    <div>
+	     <img src="img/fibonachi.png" /> 
+          </div>
+	    <div style="position: absolute; left: -20px; top: -60px;">
+		<b>Sequences</b>
+	    </div>
+	  </div>
+	</div>
+
+	<div id="seq-overview" class="step" data-x="4800" data-y="1400" data-z="-1000" data-rotate="180" data-scale="1" > 
+	  A core <b>abstraction</b> producted and consumed by <b>functions</b>.<br/>
+	  Implemented by map, vec, list and set.<br/>
+	  Very usefull in <b>stream processing</b> 
 	</div>
 
 

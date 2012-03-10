@@ -1,0 +1,2785 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="744.09448819"
+   height="1052.3622047"
+   id="svg7131"
+   version="1.1"
+   inkscape:version="0.48.2 r9819"
+   sodipodi:docname="vector-shared.svg"
+   inkscape:export-filename="/home/ronen/code/clojure-intro/sequences-and-ds/vector-1025-shared.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.7"
+     inkscape:cx="459.41289"
+     inkscape:cy="761.00874"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     inkscape:window-width="958"
+     inkscape:window-height="1054"
+     inkscape:window-x="0"
+     inkscape:window-y="24"
+     inkscape:window-maximized="0" />
+  <defs
+     id="defs7133">
+    <filter
+       y="-0.25"
+       x="-0.25"
+       height="1.5"
+       width="1.5"
+       inkscape:label="Drop shadow"
+       id="filter6580"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="2"
+         in="SourceAlpha"
+         id="feGaussianBlur6582" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 "
+         type="matrix"
+         result="bluralpha"
+         id="feColorMatrix6584" />
+      <feOffset
+         result="offsetBlur"
+         dy="4"
+         dx="4"
+         in="bluralpha"
+         id="feOffset6586" />
+      <feMerge
+         id="feMerge6588">
+        <feMergeNode
+           in="offsetBlur"
+           id="feMergeNode6590" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode6592" />
+      </feMerge>
+    </filter>
+    <filter
+       y="-0.25"
+       x="-0.25"
+       height="1.5"
+       width="1.5"
+       inkscape:label="Drop shadow"
+       id="filter6580-7"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="2"
+         in="SourceAlpha"
+         id="feGaussianBlur6582-5" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 "
+         type="matrix"
+         result="bluralpha"
+         id="feColorMatrix6584-6" />
+      <feOffset
+         result="offsetBlur"
+         dy="4"
+         dx="4"
+         in="bluralpha"
+         id="feOffset6586-1" />
+      <feMerge
+         id="feMerge6588-4">
+        <feMergeNode
+           in="offsetBlur"
+           id="feMergeNode6590-3" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode6592-1" />
+      </feMerge>
+    </filter>
+    <filter
+       y="-0.25"
+       x="-0.25"
+       height="1.5"
+       width="1.5"
+       inkscape:label="Drop shadow"
+       id="filter6580-7-0"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="2"
+         in="SourceAlpha"
+         id="feGaussianBlur6582-5-5" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 "
+         type="matrix"
+         result="bluralpha"
+         id="feColorMatrix6584-6-8" />
+      <feOffset
+         result="offsetBlur"
+         dy="4"
+         dx="4"
+         in="bluralpha"
+         id="feOffset6586-1-7" />
+      <feMerge
+         id="feMerge6588-4-7">
+        <feMergeNode
+           in="offsetBlur"
+           id="feMergeNode6590-3-6" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode6592-1-9" />
+      </feMerge>
+    </filter>
+    <filter
+       y="-0.25"
+       x="-0.25"
+       height="1.5"
+       width="1.5"
+       inkscape:label="Drop shadow"
+       id="filter6580-7-0-1"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="2"
+         in="SourceAlpha"
+         id="feGaussianBlur6582-5-5-9" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 "
+         type="matrix"
+         result="bluralpha"
+         id="feColorMatrix6584-6-8-9" />
+      <feOffset
+         result="offsetBlur"
+         dy="4"
+         dx="4"
+         in="bluralpha"
+         id="feOffset6586-1-7-3" />
+      <feMerge
+         id="feMerge6588-4-7-1">
+        <feMergeNode
+           in="offsetBlur"
+           id="feMergeNode6590-3-6-9" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode6592-1-9-2" />
+      </feMerge>
+    </filter>
+    <filter
+       y="-0.25"
+       x="-0.25"
+       height="1.5"
+       width="1.5"
+       inkscape:label="Drop shadow"
+       id="filter6580-7-0-1-9"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="2"
+         in="SourceAlpha"
+         id="feGaussianBlur6582-5-5-9-0" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 "
+         type="matrix"
+         result="bluralpha"
+         id="feColorMatrix6584-6-8-9-7" />
+      <feOffset
+         result="offsetBlur"
+         dy="4"
+         dx="4"
+         in="bluralpha"
+         id="feOffset6586-1-7-3-6" />
+      <feMerge
+         id="feMerge6588-4-7-1-8">
+        <feMergeNode
+           in="offsetBlur"
+           id="feMergeNode6590-3-6-9-8" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode6592-1-9-2-3" />
+      </feMerge>
+    </filter>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend-6"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         id="path5512-0"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <filter
+       y="-0.25"
+       x="-0.25"
+       height="1.5"
+       width="1.5"
+       inkscape:label="Drop shadow"
+       id="filter6580-5"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="2"
+         in="SourceAlpha"
+         id="feGaussianBlur6582-4" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 "
+         type="matrix"
+         result="bluralpha"
+         id="feColorMatrix6584-2" />
+      <feOffset
+         result="offsetBlur"
+         dy="4"
+         dx="4"
+         in="bluralpha"
+         id="feOffset6586-15" />
+      <feMerge
+         id="feMerge6588-9">
+        <feMergeNode
+           in="offsetBlur"
+           id="feMergeNode6590-4" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode6592-6" />
+      </feMerge>
+    </filter>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend-6-5"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         id="path5512-0-8"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <filter
+       y="-0.25"
+       x="-0.25"
+       height="1.5"
+       width="1.5"
+       inkscape:label="Drop shadow"
+       id="filter6580-5-9"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="2"
+         in="SourceAlpha"
+         id="feGaussianBlur6582-4-2" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 "
+         type="matrix"
+         result="bluralpha"
+         id="feColorMatrix6584-2-3" />
+      <feOffset
+         result="offsetBlur"
+         dy="4"
+         dx="4"
+         in="bluralpha"
+         id="feOffset6586-15-5" />
+      <feMerge
+         id="feMerge6588-9-3">
+        <feMergeNode
+           in="offsetBlur"
+           id="feMergeNode6590-4-1" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode6592-6-0" />
+      </feMerge>
+    </filter>
+    <filter
+       y="-0.25"
+       x="-0.25"
+       height="1.5"
+       width="1.5"
+       inkscape:label="Drop shadow"
+       id="filter6580-7-0-1-9-7"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="2"
+         in="SourceAlpha"
+         id="feGaussianBlur6582-5-5-9-0-8" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 "
+         type="matrix"
+         result="bluralpha"
+         id="feColorMatrix6584-6-8-9-7-3" />
+      <feOffset
+         result="offsetBlur"
+         dy="4"
+         dx="4"
+         in="bluralpha"
+         id="feOffset6586-1-7-3-6-2" />
+      <feMerge
+         id="feMerge6588-4-7-1-8-4">
+        <feMergeNode
+           in="offsetBlur"
+           id="feMergeNode6590-3-6-9-8-3" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode6592-1-9-2-3-6" />
+      </feMerge>
+    </filter>
+    <filter
+       y="-0.25"
+       x="-0.25"
+       height="1.5"
+       width="1.5"
+       inkscape:label="Drop shadow"
+       id="filter6580-7-0-1-97"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="2"
+         in="SourceAlpha"
+         id="feGaussianBlur6582-5-5-9-9" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 "
+         type="matrix"
+         result="bluralpha"
+         id="feColorMatrix6584-6-8-9-0" />
+      <feOffset
+         result="offsetBlur"
+         dy="4"
+         dx="4"
+         in="bluralpha"
+         id="feOffset6586-1-7-3-63" />
+      <feMerge
+         id="feMerge6588-4-7-1-5">
+        <feMergeNode
+           in="offsetBlur"
+           id="feMergeNode6590-3-6-9-3" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode6592-1-9-2-9" />
+      </feMerge>
+    </filter>
+    <filter
+       y="-0.25"
+       x="-0.25"
+       height="1.5"
+       width="1.5"
+       inkscape:label="Drop shadow"
+       id="filter6580-7-1"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="2"
+         in="SourceAlpha"
+         id="feGaussianBlur6582-5-0" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 "
+         type="matrix"
+         result="bluralpha"
+         id="feColorMatrix6584-6-0" />
+      <feOffset
+         result="offsetBlur"
+         dy="4"
+         dx="4"
+         in="bluralpha"
+         id="feOffset6586-1-8" />
+      <feMerge
+         id="feMerge6588-4-0">
+        <feMergeNode
+           in="offsetBlur"
+           id="feMergeNode6590-3-4" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode6592-1-5" />
+      </feMerge>
+    </filter>
+    <filter
+       y="-0.25"
+       x="-0.25"
+       height="1.5"
+       width="1.5"
+       inkscape:label="Drop shadow"
+       id="filter6580-9"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="2"
+         in="SourceAlpha"
+         id="feGaussianBlur6582-3" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 "
+         type="matrix"
+         result="bluralpha"
+         id="feColorMatrix6584-8" />
+      <feOffset
+         result="offsetBlur"
+         dy="4"
+         dx="4"
+         in="bluralpha"
+         id="feOffset6586-2" />
+      <feMerge
+         id="feMerge6588-1">
+        <feMergeNode
+           in="offsetBlur"
+           id="feMergeNode6590-35" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode6592-3" />
+      </feMerge>
+    </filter>
+    <filter
+       y="-0.25"
+       x="-0.25"
+       height="1.5"
+       width="1.5"
+       inkscape:label="Drop shadow"
+       id="filter6580-7-0-1-9-6"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="2"
+         in="SourceAlpha"
+         id="feGaussianBlur6582-5-5-9-0-1" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 "
+         type="matrix"
+         result="bluralpha"
+         id="feColorMatrix6584-6-8-9-7-2" />
+      <feOffset
+         result="offsetBlur"
+         dy="4"
+         dx="4"
+         in="bluralpha"
+         id="feOffset6586-1-7-3-6-27" />
+      <feMerge
+         id="feMerge6588-4-7-1-8-44">
+        <feMergeNode
+           in="offsetBlur"
+           id="feMergeNode6590-3-6-9-8-8" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode6592-1-9-2-3-1" />
+      </feMerge>
+    </filter>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend-6-3"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         id="path5512-0-7"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <filter
+       y="-0.25"
+       x="-0.25"
+       height="1.5"
+       width="1.5"
+       inkscape:label="Drop shadow"
+       id="filter6580-7-0-1-9-61"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="2"
+         in="SourceAlpha"
+         id="feGaussianBlur6582-5-5-9-0-9" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 "
+         type="matrix"
+         result="bluralpha"
+         id="feColorMatrix6584-6-8-9-7-0" />
+      <feOffset
+         result="offsetBlur"
+         dy="4"
+         dx="4"
+         in="bluralpha"
+         id="feOffset6586-1-7-3-6-5" />
+      <feMerge
+         id="feMerge6588-4-7-1-8-6">
+        <feMergeNode
+           in="offsetBlur"
+           id="feMergeNode6590-3-6-9-8-9" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode6592-1-9-2-3-5" />
+      </feMerge>
+    </filter>
+    <filter
+       y="-0.25"
+       x="-0.25"
+       height="1.5"
+       width="1.5"
+       inkscape:label="Drop shadow"
+       id="filter6580-7-0-1-7"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="2"
+         in="SourceAlpha"
+         id="feGaussianBlur6582-5-5-9-8" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 "
+         type="matrix"
+         result="bluralpha"
+         id="feColorMatrix6584-6-8-9-9" />
+      <feOffset
+         result="offsetBlur"
+         dy="4"
+         dx="4"
+         in="bluralpha"
+         id="feOffset6586-1-7-3-0" />
+      <feMerge
+         id="feMerge6588-4-7-1-6">
+        <feMergeNode
+           in="offsetBlur"
+           id="feMergeNode6590-3-6-9-35" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode6592-1-9-2-7" />
+      </feMerge>
+    </filter>
+    <filter
+       y="-0.25"
+       x="-0.25"
+       height="1.5"
+       width="1.5"
+       inkscape:label="Drop shadow"
+       id="filter6580-7-6"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="2"
+         in="SourceAlpha"
+         id="feGaussianBlur6582-5-9" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 "
+         type="matrix"
+         result="bluralpha"
+         id="feColorMatrix6584-6-4" />
+      <feOffset
+         result="offsetBlur"
+         dy="4"
+         dx="4"
+         in="bluralpha"
+         id="feOffset6586-1-9" />
+      <feMerge
+         id="feMerge6588-4-4">
+        <feMergeNode
+           in="offsetBlur"
+           id="feMergeNode6590-3-3" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode6592-1-2" />
+      </feMerge>
+    </filter>
+    <filter
+       y="-0.25"
+       x="-0.25"
+       height="1.5"
+       width="1.5"
+       inkscape:label="Drop shadow"
+       id="filter6580-99"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="2"
+         in="SourceAlpha"
+         id="feGaussianBlur6582-0" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 "
+         type="matrix"
+         result="bluralpha"
+         id="feColorMatrix6584-1" />
+      <feOffset
+         result="offsetBlur"
+         dy="4"
+         dx="4"
+         in="bluralpha"
+         id="feOffset6586-5" />
+      <feMerge
+         id="feMerge6588-7">
+        <feMergeNode
+           in="offsetBlur"
+           id="feMergeNode6590-5" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode6592-5" />
+      </feMerge>
+    </filter>
+    <filter
+       y="-0.25"
+       x="-0.25"
+       height="1.5"
+       width="1.5"
+       inkscape:label="Drop shadow"
+       id="filter6580-90"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="2"
+         in="SourceAlpha"
+         id="feGaussianBlur6582-9" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 "
+         type="matrix"
+         result="bluralpha"
+         id="feColorMatrix6584-4" />
+      <feOffset
+         result="offsetBlur"
+         dy="4"
+         dx="4"
+         in="bluralpha"
+         id="feOffset6586-6" />
+      <feMerge
+         id="feMerge6588-8">
+        <feMergeNode
+           in="offsetBlur"
+           id="feMergeNode6590-32" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode6592-8" />
+      </feMerge>
+    </filter>
+    <filter
+       y="-0.25"
+       x="-0.25"
+       height="1.5"
+       width="1.5"
+       inkscape:label="Drop shadow"
+       id="filter6580-7-03"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="2"
+         in="SourceAlpha"
+         id="feGaussianBlur6582-5-56" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 "
+         type="matrix"
+         result="bluralpha"
+         id="feColorMatrix6584-6-5" />
+      <feOffset
+         result="offsetBlur"
+         dy="4"
+         dx="4"
+         in="bluralpha"
+         id="feOffset6586-1-86" />
+      <feMerge
+         id="feMerge6588-4-74">
+        <feMergeNode
+           in="offsetBlur"
+           id="feMergeNode6590-3-9" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode6592-1-1" />
+      </feMerge>
+    </filter>
+    <filter
+       y="-0.25"
+       x="-0.25"
+       height="1.5"
+       width="1.5"
+       inkscape:label="Drop shadow"
+       id="filter6580-7-0-1-6"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="2"
+         in="SourceAlpha"
+         id="feGaussianBlur6582-5-5-9-7" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 "
+         type="matrix"
+         result="bluralpha"
+         id="feColorMatrix6584-6-8-9-2" />
+      <feOffset
+         result="offsetBlur"
+         dy="4"
+         dx="4"
+         in="bluralpha"
+         id="feOffset6586-1-7-3-67" />
+      <feMerge
+         id="feMerge6588-4-7-1-3">
+        <feMergeNode
+           in="offsetBlur"
+           id="feMergeNode6590-3-6-9-0" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode6592-1-9-2-2" />
+      </feMerge>
+    </filter>
+    <filter
+       y="-0.25"
+       x="-0.25"
+       height="1.5"
+       width="1.5"
+       inkscape:label="Drop shadow"
+       id="filter6580-7-0-1-9-8"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="2"
+         in="SourceAlpha"
+         id="feGaussianBlur6582-5-5-9-0-88" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 "
+         type="matrix"
+         result="bluralpha"
+         id="feColorMatrix6584-6-8-9-7-7" />
+      <feOffset
+         result="offsetBlur"
+         dy="4"
+         dx="4"
+         in="bluralpha"
+         id="feOffset6586-1-7-3-6-8" />
+      <feMerge
+         id="feMerge6588-4-7-1-8-9">
+        <feMergeNode
+           in="offsetBlur"
+           id="feMergeNode6590-3-6-9-8-36" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode6592-1-9-2-3-9" />
+      </feMerge>
+    </filter>
+    <filter
+       y="-0.25"
+       x="-0.25"
+       height="1.5"
+       width="1.5"
+       inkscape:label="Drop shadow"
+       id="filter6580-7-0-1-9-61-2"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="2"
+         in="SourceAlpha"
+         id="feGaussianBlur6582-5-5-9-0-9-0" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 "
+         type="matrix"
+         result="bluralpha"
+         id="feColorMatrix6584-6-8-9-7-0-6" />
+      <feOffset
+         result="offsetBlur"
+         dy="4"
+         dx="4"
+         in="bluralpha"
+         id="feOffset6586-1-7-3-6-5-8" />
+      <feMerge
+         id="feMerge6588-4-7-1-8-6-4">
+        <feMergeNode
+           in="offsetBlur"
+           id="feMergeNode6590-3-6-9-8-9-9" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode6592-1-9-2-3-5-1" />
+      </feMerge>
+    </filter>
+    <filter
+       y="-0.25"
+       x="-0.25"
+       height="1.5"
+       width="1.5"
+       inkscape:label="Drop shadow"
+       id="filter6580-7-0-1-9-61-4"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="2"
+         in="SourceAlpha"
+         id="feGaussianBlur6582-5-5-9-0-9-8" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 "
+         type="matrix"
+         result="bluralpha"
+         id="feColorMatrix6584-6-8-9-7-0-1" />
+      <feOffset
+         result="offsetBlur"
+         dy="4"
+         dx="4"
+         in="bluralpha"
+         id="feOffset6586-1-7-3-6-5-6" />
+      <feMerge
+         id="feMerge6588-4-7-1-8-6-6">
+        <feMergeNode
+           in="offsetBlur"
+           id="feMergeNode6590-3-6-9-8-9-2" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode6592-1-9-2-3-5-2" />
+      </feMerge>
+    </filter>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend-6-3-9"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         id="path5512-0-7-3"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend-6-8"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         id="path5512-0-5"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <filter
+       y="-0.25"
+       x="-0.25"
+       height="1.5"
+       width="1.5"
+       inkscape:label="Drop shadow"
+       id="filter6580-5-9-8"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="2"
+         in="SourceAlpha"
+         id="feGaussianBlur6582-4-2-6" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 "
+         type="matrix"
+         result="bluralpha"
+         id="feColorMatrix6584-2-3-7" />
+      <feOffset
+         result="offsetBlur"
+         dy="4"
+         dx="4"
+         in="bluralpha"
+         id="feOffset6586-15-5-1" />
+      <feMerge
+         id="feMerge6588-9-3-5">
+        <feMergeNode
+           in="offsetBlur"
+           id="feMergeNode6590-4-1-2" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode6592-6-0-6" />
+      </feMerge>
+    </filter>
+    <filter
+       y="-0.25"
+       x="-0.25"
+       height="1.5"
+       width="1.5"
+       inkscape:label="Drop shadow"
+       id="filter6580-7-0-1-9-8-2"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="2"
+         in="SourceAlpha"
+         id="feGaussianBlur6582-5-5-9-0-88-2" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 "
+         type="matrix"
+         result="bluralpha"
+         id="feColorMatrix6584-6-8-9-7-7-3" />
+      <feOffset
+         result="offsetBlur"
+         dy="4"
+         dx="4"
+         in="bluralpha"
+         id="feOffset6586-1-7-3-6-8-5" />
+      <feMerge
+         id="feMerge6588-4-7-1-8-9-2">
+        <feMergeNode
+           in="offsetBlur"
+           id="feMergeNode6590-3-6-9-8-36-3" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode6592-1-9-2-3-9-6" />
+      </feMerge>
+    </filter>
+    <filter
+       y="-0.25"
+       x="-0.25"
+       height="1.5"
+       width="1.5"
+       inkscape:label="Drop shadow"
+       id="filter6580-7-6-1"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="2"
+         in="SourceAlpha"
+         id="feGaussianBlur6582-5-9-4" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 "
+         type="matrix"
+         result="bluralpha"
+         id="feColorMatrix6584-6-4-1" />
+      <feOffset
+         result="offsetBlur"
+         dy="4"
+         dx="4"
+         in="bluralpha"
+         id="feOffset6586-1-9-3" />
+      <feMerge
+         id="feMerge6588-4-4-4">
+        <feMergeNode
+           in="offsetBlur"
+           id="feMergeNode6590-3-3-4" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode6592-1-2-5" />
+      </feMerge>
+    </filter>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend-6-3-5"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         id="path5512-0-7-4"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <filter
+       y="-0.25"
+       x="-0.25"
+       height="1.5"
+       width="1.5"
+       inkscape:label="Drop shadow"
+       id="filter6580-3"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="2"
+         in="SourceAlpha"
+         id="feGaussianBlur6582-91" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 "
+         type="matrix"
+         result="bluralpha"
+         id="feColorMatrix6584-5" />
+      <feOffset
+         result="offsetBlur"
+         dy="4"
+         dx="4"
+         in="bluralpha"
+         id="feOffset6586-0" />
+      <feMerge
+         id="feMerge6588-49">
+        <feMergeNode
+           in="offsetBlur"
+           id="feMergeNode6590-6" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode6592-7" />
+      </feMerge>
+    </filter>
+    <filter
+       y="-0.25"
+       x="-0.25"
+       height="1.5"
+       width="1.5"
+       inkscape:label="Drop shadow"
+       id="filter6580-7-4"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="2"
+         in="SourceAlpha"
+         id="feGaussianBlur6582-5-3" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 "
+         type="matrix"
+         result="bluralpha"
+         id="feColorMatrix6584-6-09" />
+      <feOffset
+         result="offsetBlur"
+         dy="4"
+         dx="4"
+         in="bluralpha"
+         id="feOffset6586-1-6" />
+      <feMerge
+         id="feMerge6588-4-6">
+        <feMergeNode
+           in="offsetBlur"
+           id="feMergeNode6590-3-0" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode6592-1-4" />
+      </feMerge>
+    </filter>
+    <filter
+       y="-0.25"
+       x="-0.25"
+       height="1.5"
+       width="1.5"
+       inkscape:label="Drop shadow"
+       id="filter6580-7-0-1-5"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="2"
+         in="SourceAlpha"
+         id="feGaussianBlur6582-5-5-9-82" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 "
+         type="matrix"
+         result="bluralpha"
+         id="feColorMatrix6584-6-8-9-8" />
+      <feOffset
+         result="offsetBlur"
+         dy="4"
+         dx="4"
+         in="bluralpha"
+         id="feOffset6586-1-7-3-68" />
+      <feMerge
+         id="feMerge6588-4-7-1-53">
+        <feMergeNode
+           in="offsetBlur"
+           id="feMergeNode6590-3-6-9-4" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode6592-1-9-2-0" />
+      </feMerge>
+    </filter>
+    <filter
+       y="-0.25"
+       x="-0.25"
+       height="1.5"
+       width="1.5"
+       inkscape:label="Drop shadow"
+       id="filter6580-7-0-1-9-1"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="2"
+         in="SourceAlpha"
+         id="feGaussianBlur6582-5-5-9-0-7" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 "
+         type="matrix"
+         result="bluralpha"
+         id="feColorMatrix6584-6-8-9-7-78" />
+      <feOffset
+         result="offsetBlur"
+         dy="4"
+         dx="4"
+         in="bluralpha"
+         id="feOffset6586-1-7-3-6-0" />
+      <feMerge
+         id="feMerge6588-4-7-1-8-8">
+        <feMergeNode
+           in="offsetBlur"
+           id="feMergeNode6590-3-6-9-8-97" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode6592-1-9-2-3-8" />
+      </feMerge>
+    </filter>
+    <filter
+       y="-0.25"
+       x="-0.25"
+       height="1.5"
+       width="1.5"
+       inkscape:label="Drop shadow"
+       id="filter6580-5-3"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="2"
+         in="SourceAlpha"
+         id="feGaussianBlur6582-4-9" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 "
+         type="matrix"
+         result="bluralpha"
+         id="feColorMatrix6584-2-7" />
+      <feOffset
+         result="offsetBlur"
+         dy="4"
+         dx="4"
+         in="bluralpha"
+         id="feOffset6586-15-2" />
+      <feMerge
+         id="feMerge6588-9-5">
+        <feMergeNode
+           in="offsetBlur"
+           id="feMergeNode6590-4-0" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode6592-6-2" />
+      </feMerge>
+    </filter>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend-6-4"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         id="path5512-0-80"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <filter
+       y="-0.25"
+       x="-0.25"
+       height="1.5"
+       width="1.5"
+       inkscape:label="Drop shadow"
+       id="filter6580-9-6"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="2"
+         in="SourceAlpha"
+         id="feGaussianBlur6582-3-2" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 "
+         type="matrix"
+         result="bluralpha"
+         id="feColorMatrix6584-8-6" />
+      <feOffset
+         result="offsetBlur"
+         dy="4"
+         dx="4"
+         in="bluralpha"
+         id="feOffset6586-2-5" />
+      <feMerge
+         id="feMerge6588-1-6">
+        <feMergeNode
+           in="offsetBlur"
+           id="feMergeNode6590-35-6" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode6592-3-3" />
+      </feMerge>
+    </filter>
+    <filter
+       y="-0.25"
+       x="-0.25"
+       height="1.5"
+       width="1.5"
+       inkscape:label="Drop shadow"
+       id="filter6580-5-9-4"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="2"
+         in="SourceAlpha"
+         id="feGaussianBlur6582-4-2-1" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 "
+         type="matrix"
+         result="bluralpha"
+         id="feColorMatrix6584-2-3-71" />
+      <feOffset
+         result="offsetBlur"
+         dy="4"
+         dx="4"
+         in="bluralpha"
+         id="feOffset6586-15-5-3" />
+      <feMerge
+         id="feMerge6588-9-3-0">
+        <feMergeNode
+           in="offsetBlur"
+           id="feMergeNode6590-4-1-8" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode6592-6-0-2" />
+      </feMerge>
+    </filter>
+    <marker
+       style="overflow:visible"
+       id="marker8647"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         id="path8649"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <filter
+       y="-0.25"
+       x="-0.25"
+       height="1.5"
+       width="1.5"
+       inkscape:label="Drop shadow"
+       id="filter6580-7-0-1-9-6-9"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="2"
+         in="SourceAlpha"
+         id="feGaussianBlur6582-5-5-9-0-1-0" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 "
+         type="matrix"
+         result="bluralpha"
+         id="feColorMatrix6584-6-8-9-7-2-1" />
+      <feOffset
+         result="offsetBlur"
+         dy="4"
+         dx="4"
+         in="bluralpha"
+         id="feOffset6586-1-7-3-6-27-0" />
+      <feMerge
+         id="feMerge6588-4-7-1-8-44-8">
+        <feMergeNode
+           in="offsetBlur"
+           id="feMergeNode6590-3-6-9-8-8-1" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode6592-1-9-2-3-1-6" />
+      </feMerge>
+    </filter>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend-6-3-7"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         id="path5512-0-7-8"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="marker8660"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         id="path8662"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <filter
+       y="-0.25"
+       x="-0.25"
+       height="1.5"
+       width="1.5"
+       inkscape:label="Drop shadow"
+       id="filter6580-6"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="2"
+         in="SourceAlpha"
+         id="feGaussianBlur6582-8" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 "
+         type="matrix"
+         result="bluralpha"
+         id="feColorMatrix6584-0" />
+      <feOffset
+         result="offsetBlur"
+         dy="4"
+         dx="4"
+         in="bluralpha"
+         id="feOffset6586-9" />
+      <feMerge
+         id="feMerge6588-3">
+        <feMergeNode
+           in="offsetBlur"
+           id="feMergeNode6590-63" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode6592-89" />
+      </feMerge>
+    </filter>
+    <filter
+       y="-0.25"
+       x="-0.25"
+       height="1.5"
+       width="1.5"
+       inkscape:label="Drop shadow"
+       id="filter6580-7-5"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="2"
+         in="SourceAlpha"
+         id="feGaussianBlur6582-5-01" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 "
+         type="matrix"
+         result="bluralpha"
+         id="feColorMatrix6584-6-7" />
+      <feOffset
+         result="offsetBlur"
+         dy="4"
+         dx="4"
+         in="bluralpha"
+         id="feOffset6586-1-1" />
+      <feMerge
+         id="feMerge6588-4-9">
+        <feMergeNode
+           in="offsetBlur"
+           id="feMergeNode6590-3-8" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode6592-1-26" />
+      </feMerge>
+    </filter>
+    <filter
+       y="-0.25"
+       x="-0.25"
+       height="1.5"
+       width="1.5"
+       inkscape:label="Drop shadow"
+       id="filter6580-7-0-1-75"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="2"
+         in="SourceAlpha"
+         id="feGaussianBlur6582-5-5-9-93" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 "
+         type="matrix"
+         result="bluralpha"
+         id="feColorMatrix6584-6-8-9-99" />
+      <feOffset
+         result="offsetBlur"
+         dy="4"
+         dx="4"
+         in="bluralpha"
+         id="feOffset6586-1-7-3-7" />
+      <feMerge
+         id="feMerge6588-4-7-1-9">
+        <feMergeNode
+           in="offsetBlur"
+           id="feMergeNode6590-3-6-9-7" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode6592-1-9-2-35" />
+      </feMerge>
+    </filter>
+    <filter
+       y="-0.25"
+       x="-0.25"
+       height="1.5"
+       width="1.5"
+       inkscape:label="Drop shadow"
+       id="filter6580-7-0-1-9-0"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="2"
+         in="SourceAlpha"
+         id="feGaussianBlur6582-5-5-9-0-4" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 "
+         type="matrix"
+         result="bluralpha"
+         id="feColorMatrix6584-6-8-9-7-1" />
+      <feOffset
+         result="offsetBlur"
+         dy="4"
+         dx="4"
+         in="bluralpha"
+         id="feOffset6586-1-7-3-6-9" />
+      <feMerge
+         id="feMerge6588-4-7-1-8-41">
+        <feMergeNode
+           in="offsetBlur"
+           id="feMergeNode6590-3-6-9-8-4" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode6592-1-9-2-3-3" />
+      </feMerge>
+    </filter>
+    <filter
+       y="-0.25"
+       x="-0.25"
+       height="1.5"
+       width="1.5"
+       inkscape:label="Drop shadow"
+       id="filter6580-5-6"
+       color-interpolation-filters="sRGB">
+      <feGaussianBlur
+         result="blur"
+         stdDeviation="2"
+         in="SourceAlpha"
+         id="feGaussianBlur6582-4-4" />
+      <feColorMatrix
+         values="1 0 0 0 0 0 1 0 0 0 0 0 1 0 0 0 0 0 0.5 0 "
+         type="matrix"
+         result="bluralpha"
+         id="feColorMatrix6584-2-2" />
+      <feOffset
+         result="offsetBlur"
+         dy="4"
+         dx="4"
+         in="bluralpha"
+         id="feOffset6586-15-27" />
+      <feMerge
+         id="feMerge6588-9-6">
+        <feMergeNode
+           in="offsetBlur"
+           id="feMergeNode6590-4-18" />
+        <feMergeNode
+           in="SourceGraphic"
+           id="feMergeNode6592-6-5" />
+      </feMerge>
+    </filter>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend-6-1"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="fill-rule:evenodd;stroke:#000000;stroke-width:1pt;marker-start:none"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         id="path5512-0-1"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend-6Z"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend-6Z">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="marker-start:none;stroke:#6d9dbe;stroke-width:1pt;fill:#6d9dbe;fill-rule:evenodd"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         id="path11154"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend-6-3N"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend-6-3N">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="marker-start:none;stroke:#6d9dbe;stroke-width:1pt;fill:#6d9dbe;fill-rule:evenodd"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         id="path11994"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend-6-3b"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend-6-3b">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="marker-start:none;stroke:#6d9dbe;stroke-width:1pt;fill:#6d9dbe;fill-rule:evenodd"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         id="path12837"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend-64"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend-64">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="marker-start:none;stroke:#6d9dbe;stroke-width:1pt;fill:#6d9dbe;fill-rule:evenodd"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         id="path14277"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend-6-3p"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend-6-3p">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="marker-start:none;stroke:#6d9dbe;stroke-width:1pt;fill:#6d9dbe;fill-rule:evenodd"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         id="path15424"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend-6-3i"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend-6-3i">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="marker-start:none;stroke:#6d9dbe;stroke-width:1pt;fill:#6d9dbe;fill-rule:evenodd"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         id="path16279"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend-6F"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend-6F">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="marker-start:none;stroke:#6d9dbe;stroke-width:1pt;fill:#6d9dbe;fill-rule:evenodd"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         id="path17138"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend-6p"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend-6p">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="marker-start:none;stroke:#6d9dbe;stroke-width:1pt;fill:#6d9dbe;fill-rule:evenodd"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         id="path18001"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend-6-30"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend-6-30">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="marker-start:none;stroke:#6d9dbe;stroke-width:1pt;fill:#6d9dbe;fill-rule:evenodd"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         id="path18868"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend-6-3a"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend-6-3a">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="marker-start:none;stroke:#6d9dbe;stroke-width:1pt;fill:#6d9dbe;fill-rule:evenodd"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         id="path19739"
+         inkscape:connector-curvature="0" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow1Lend-6W"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow1Lend-6W">
+      <path
+         transform="matrix(-0.8,0,0,-0.8,-10,0)"
+         style="marker-start:none;stroke:#6d9dbe;stroke-width:1pt;fill:#6d9dbe;fill-rule:evenodd"
+         d="M 0,0 5,-5 -12.5,0 5,5 0,0 z"
+         id="path20614"
+         inkscape:connector-curvature="0" />
+    </marker>
+  </defs>
+  <metadata
+     id="metadata7136">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     id="layer1"
+     inkscape:groupmode="layer"
+     inkscape:label="Layer 1">
+    <g
+       id="g21219"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-1024.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
+      <rect
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.30018854;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter6580)"
+         id="rect6201"
+         width="73.626511"
+         height="75.50248"
+         x="190.47107"
+         y="191.33664"
+         ry="6.6537166"
+         inkscape:export-filename="/home/ronen/code/clojure-intro/sequences-and-ds/path4736-5.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90"
+         transform="matrix(0.54618547,0,0,0.50635906,7.306233,169.39373)" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.30018854;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter6580-7)"
+         id="rect6201-6"
+         width="73.626511"
+         height="75.50248"
+         x="190.47107"
+         y="191.33664"
+         ry="6.6537166"
+         inkscape:export-filename="/home/ronen/code/clojure-intro/sequences-and-ds/path4736-5.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90"
+         transform="matrix(0.54618547,0,0,0.50635906,48.721453,169.87372)" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.30018854;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter6580-7-0-1)"
+         id="rect6201-6-0-8"
+         width="73.626511"
+         height="75.50248"
+         x="190.47107"
+         y="191.33664"
+         ry="6.6537166"
+         inkscape:export-filename="/home/ronen/code/clojure-intro/sequences-and-ds/path4736-5.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90"
+         transform="matrix(0.54618547,0,0,0.50635906,131.92171,169.87372)" />
+      <rect
+         style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.30018854;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter6580-7-0-1-9)"
+         id="rect6201-6-0-8-1"
+         width="73.626511"
+         height="75.50248"
+         x="190.47107"
+         y="191.33664"
+         ry="6.6537166"
+         inkscape:export-filename="/home/ronen/code/clojure-intro/sequences-and-ds/path4736-5.png"
+         inkscape:export-xdpi="90"
+         inkscape:export-ydpi="90"
+         transform="matrix(0.54618547,0,0,0.50635906,173.4707,169.87372)" />
+      <path
+         sodipodi:type="arc"
+         style="fill:#6d9cbe;fill-opacity:1;fill-rule:nonzero;stroke:#6d9cbe;stroke-width:1.15600002000000002;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="path7334"
+         sodipodi:cx="266.68027"
+         sodipodi:cy="411.42038"
+         sodipodi:rx="5.0507627"
+         sodipodi:ry="5.5558391"
+         d="m 271.73103,411.42038 a 5.0507627,5.5558391 0 1 1 -0.10369,-1.12001"
+         sodipodi:start="0"
+         sodipodi:end="6.0802029"
+         sodipodi:open="true"
+         transform="matrix(0.40252961,0,0,0.4229277,92.667031,128.04826)" />
+      <path
+         sodipodi:type="arc"
+         style="fill:#6d9cbe;fill-opacity:1;fill-rule:nonzero;stroke:#6d9cbe;stroke-width:1.15600002000000002;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         id="path7334-2"
+         sodipodi:cx="266.68027"
+         sodipodi:cy="411.42038"
+         sodipodi:rx="5.0507627"
+         sodipodi:ry="5.5558391"
+         d="m 271.73103,411.42038 a 5.0507627,5.5558391 0 1 1 -0.10369,-1.12001"
+         sodipodi:start="0"
+         sodipodi:end="6.0802029"
+         sodipodi:open="true"
+         transform="matrix(0.40252961,0,0,0.4229277,101.39624,128.1628)" />
+      <path
+         style="fill:#6d9cbe;fill-opacity:1;fill-rule:nonzero;stroke:#6d9cbe;stroke-width:0.47696862000000001;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 218.28156,300.0021 c -1.12285,0 -2.04597,1.04203 -2.04597,2.33974 0,1.29772 0.92312,2.35941 2.04597,2.35941 1.12284,0 2.0263,-1.06169 2.0263,-2.35941 l -0.0394,-0.47188 c -0.1945,-1.09224 -1.02209,-1.86786 -1.98695,-1.86786 z"
+         id="path7334-9"
+         inkscape:connector-curvature="0" />
+      <path
+         style="fill:#6d9cbe;fill-opacity:1;fill-rule:nonzero;stroke:#6d9cbe;stroke-width:0.47696862000000001;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+         d="m 227.73997,299.92802 c -1.12284,0 -2.04597,1.04204 -2.04597,2.33975 0,1.29771 0.92313,2.3594 2.04597,2.3594 1.12284,0 2.0263,-1.06169 2.0263,-2.3594 l -0.0393,-0.47189 c -0.19451,-1.09222 -1.0221,-1.86786 -1.98696,-1.86786 z"
+         id="path7334-9-8"
+         inkscape:connector-curvature="0" />
+      <text
+         xml:space="preserve"
+         style="font-size:15.1044693px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="125.57597"
+         y="290.27017"
+         id="text7889"
+         sodipodi:linespacing="125%"
+         transform="scale(1.0002817,0.99971838)"><tspan
+           sodipodi:role="line"
+           id="tspan7891"
+           x="125.57597"
+           y="290.27017">1</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:15.1044693px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="166.57379"
+         y="290.62982"
+         id="text7893"
+         sodipodi:linespacing="125%"
+         transform="scale(1.0002817,0.99971838)"><tspan
+           sodipodi:role="line"
+           id="tspan7895"
+           x="166.57379"
+           y="290.62982">2</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:15.1044693px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="247.67041"
+         y="291.34906"
+         id="text7897"
+         sodipodi:linespacing="125%"
+         transform="scale(1.0002817,0.99971838)"><tspan
+           sodipodi:role="line"
+           id="tspan7899"
+           x="247.67041"
+           y="291.34906">31</tspan></text>
+      <text
+         xml:space="preserve"
+         style="font-size:15.1044693px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+         x="287.58939"
+         y="290.8096"
+         id="text7901"
+         sodipodi:linespacing="125%"
+         transform="scale(1.0002817,0.99971838)"><tspan
+           sodipodi:role="line"
+           id="tspan7903"
+           x="287.58939"
+           y="290.8096">32</tspan></text>
+    </g>
+    <rect
+       transform="matrix(0.62953023,0,0,0.62917563,-6.0248378,83.23414)"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-1024.png"
+       ry="6.6537166"
+       y="251.94577"
+       x="40.41943"
+       height="75.50248"
+       width="73.626511"
+       id="rect6201-1"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.30018854;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter6580-5)" />
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-1024.png"
+       transform="scale(0.86895717,1.1508047)"
+       inkscape:transform-center-y="-6.4442328"
+       sodipodi:linespacing="125%"
+       id="text6203"
+       y="234.65103"
+       x="43.48156"
+       style="font-size:15.36277866px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="234.65103"
+         x="43.48156"
+         id="tspan6205"
+         sodipodi:role="line">a</tspan></text>
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-1024.png"
+       inkscape:connector-curvature="0"
+       id="path6255"
+       d="m 66.146905,265.39955 c 43.884155,19.5044 43.884155,19.5044 43.884155,19.5044"
+       style="fill:none;stroke:#000000;stroke-width:0.85628825px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend-6)" />
+    <rect
+       transform="matrix(0.54618549,0,0,0.50635905,113.37659,63.902609)"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-1024.png"
+       ry="6.6537166"
+       y="191.33664"
+       x="190.47107"
+       height="75.50248"
+       width="73.626511"
+       id="rect6201-3"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.30018854;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter6580-9)" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text7889-0"
+       y="161.26366"
+       x="377.59351"
+       style="font-size:24px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="161.26366"
+         x="377.59351"
+         id="tspan7891-8"
+         sodipodi:role="line" /></text>
+    <rect
+       transform="matrix(0.62953023,0,0,0.62917563,-6.0248378,83.23414)"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-1024.png"
+       ry="6.6537166"
+       y="84.280159"
+       x="208.91072"
+       height="75.50248"
+       width="73.626511"
+       id="rect6201-1-9"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.30018854;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter6580-5-9)" />
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-1024.png"
+       transform="scale(0.86895717,1.1508047)"
+       inkscape:transform-center-y="-6.4442527"
+       sodipodi:linespacing="125%"
+       id="text6203-9"
+       y="142.98373"
+       x="165.54785"
+       style="font-size:15.36277866px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="142.98373"
+         x="165.54785"
+         id="tspan6205-6"
+         sodipodi:role="line">b</tspan></text>
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-1024.png"
+       inkscape:connector-curvature="0"
+       id="path6255-5"
+       d="m 172.21727,159.90844 c 43.88411,19.50439 43.88411,19.50439 43.88411,19.50439"
+       style="stroke-linejoin:miter;marker-end:url(#Arrow1Lend-64);stroke-opacity:1;stroke:#6d9dbe;stroke-linecap:butt;stroke-width:0.85628824999999997px;fill:none" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path8322"
+       d="m 218.44268,197.51194 c -87.75716,64.19189 -87.75716,64.19189 -87.75716,64.19189"
+       style="stroke-linejoin:miter;marker-end:url(#Arrow1Lend-6-3i);stroke-opacity:1;stroke:#6d9dbe;stroke-linecap:butt;stroke-width:0.62935286999999995px;fill:none"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-1024.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path8324"
+       d="m 274.01656,199.72616 c 127.82025,66.73415 127.82025,66.73415 127.82025,66.73415"
+       style="stroke-linejoin:miter;marker-end:url(#Arrow1Lend-6-3p);stroke-opacity:1;stroke:#6d9dbe;stroke-linecap:butt;stroke-width:0.62935286999999995px;fill:none"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-1024.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       transform="matrix(0.54618549,0,0,0.50635905,156.69895,63.877874)"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-1024.png"
+       ry="6.6537166"
+       y="191.33664"
+       x="190.47107"
+       height="75.50248"
+       width="73.626511"
+       id="rect6201-6-6"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.30018854;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter6580-7-6)" />
+    <rect
+       transform="matrix(0.54618549,0,0,0.50635905,242.336,63.877874)"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-1024.png"
+       ry="6.6537166"
+       y="191.33664"
+       x="190.47107"
+       height="75.50248"
+       width="73.626511"
+       id="rect6201-6-0-8-4"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.30018854;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter6580-7-0-1-7)" />
+    <rect
+       transform="matrix(0.54618549,0,0,0.50635905,283.88502,63.877874)"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-1024.png"
+       ry="6.6537166"
+       y="191.33664"
+       x="190.47107"
+       height="75.50248"
+       width="73.626511"
+       id="rect6201-6-0-8-1-64"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.30018854;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter6580-7-0-1-9-61)" />
+    <path
+       transform="matrix(0.40252963,0,0,0.42292767,203.08133,22.052409)"
+       sodipodi:open="true"
+       sodipodi:end="6.0802029"
+       sodipodi:start="0"
+       d="m 271.73103,411.42038 a 5.0507627,5.5558391 0 1 1 -0.10369,-1.12001"
+       sodipodi:ry="5.5558391"
+       sodipodi:rx="5.0507627"
+       sodipodi:cy="411.42038"
+       sodipodi:cx="266.68027"
+       id="path7334-26"
+       style="fill:#6d9cbe;fill-opacity:1;fill-rule:nonzero;stroke:#6d9cbe;stroke-width:1.15600002000000002;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-1024.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="matrix(0.40252963,0,0,0.42292767,211.81055,22.166956)"
+       sodipodi:open="true"
+       sodipodi:end="6.0802029"
+       sodipodi:start="0"
+       d="m 271.73103,411.42038 a 5.0507627,5.5558391 0 1 1 -0.10369,-1.12001"
+       sodipodi:ry="5.5558391"
+       sodipodi:rx="5.0507627"
+       sodipodi:cy="411.42038"
+       sodipodi:cx="266.68027"
+       id="path7334-2-1"
+       style="fill:#6d9cbe;fill-opacity:1;fill-rule:nonzero;stroke:#6d9cbe;stroke-width:1.15600002000000002;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-1024.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path7334-9-9"
+       d="m 328.69585,194.00626 c -1.1228,0 -2.04596,1.04202 -2.04596,2.33973 0,1.29773 0.92316,2.35942 2.04596,2.35942 1.12284,0 2.02631,-1.06169 2.02631,-2.35942 l -0.0393,-0.47188 c -0.19454,-1.09224 -1.02214,-1.86785 -1.98699,-1.86785 z"
+       style="fill:#6d9cbe;fill-opacity:1;fill-rule:nonzero;stroke:#6d9cbe;stroke-width:0.47696864999999999;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-1024.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path7334-9-8-4"
+       d="m 338.15429,193.93217 c -1.12285,0 -2.04597,1.04203 -2.04597,2.33976 0,1.29771 0.92312,2.3594 2.04597,2.3594 1.12283,0 2.0263,-1.06169 2.0263,-2.3594 l -0.0393,-0.4719 c -0.19451,-1.09222 -1.02212,-1.86786 -1.98694,-1.86786 z"
+       style="fill:#6d9cbe;fill-opacity:1;fill-rule:nonzero;stroke:#6d9cbe;stroke-width:0.47696864999999999;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-1024.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       transform="matrix(0.54618548,0,0,0.50635904,287.78067,171.24663)"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-1024.png"
+       ry="6.6537166"
+       y="191.33664"
+       x="190.47107"
+       height="75.50248"
+       width="73.626511"
+       id="rect6201-17"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.30018854;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter6580-90)" />
+    <rect
+       transform="matrix(0.54618548,0,0,0.50635904,329.19588,171.72661)"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-1024.png"
+       ry="6.6537166"
+       y="191.33664"
+       x="190.47107"
+       height="75.50248"
+       width="73.626511"
+       id="rect6201-6-7"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.30018854;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter6580-7-03)" />
+    <rect
+       transform="matrix(0.54618548,0,0,0.50635904,412.39615,171.72661)"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-1024.png"
+       ry="6.6537166"
+       y="191.33664"
+       x="190.47107"
+       height="75.50248"
+       width="73.626511"
+       id="rect6201-6-0-8-6"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.30018854;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter6580-7-0-1-6)" />
+    <rect
+       transform="matrix(0.54618548,0,0,0.50635904,453.94513,171.72661)"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-1024.png"
+       ry="6.6537166"
+       y="191.33664"
+       x="190.47107"
+       height="75.50248"
+       width="73.626511"
+       id="rect6201-6-0-8-1-4"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.30018854;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter6580-7-0-1-9-8)" />
+    <path
+       transform="matrix(0.40252961,0,0,0.4229277,373.14147,129.90115)"
+       sodipodi:open="true"
+       sodipodi:end="6.0802029"
+       sodipodi:start="0"
+       d="m 271.73103,411.42038 a 5.0507627,5.5558391 0 1 1 -0.10369,-1.12001"
+       sodipodi:ry="5.5558391"
+       sodipodi:rx="5.0507627"
+       sodipodi:cy="411.42038"
+       sodipodi:cx="266.68027"
+       id="path7334-1"
+       style="fill:#6d9cbe;fill-opacity:1;fill-rule:nonzero;stroke:#6d9cbe;stroke-width:1.15600002000000002;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-1024.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="matrix(0.40252961,0,0,0.4229277,381.87068,130.0157)"
+       sodipodi:open="true"
+       sodipodi:end="6.0802029"
+       sodipodi:start="0"
+       d="m 271.73103,411.42038 a 5.0507627,5.5558391 0 1 1 -0.10369,-1.12001"
+       sodipodi:ry="5.5558391"
+       sodipodi:rx="5.0507627"
+       sodipodi:cy="411.42038"
+       sodipodi:cx="266.68027"
+       id="path7334-2-3"
+       style="fill:#6d9cbe;fill-opacity:1;fill-rule:nonzero;stroke:#6d9cbe;stroke-width:1.15600002000000002;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-1024.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path7334-9-3"
+       d="m 498.756,301.85499 c -1.12285,0 -2.04597,1.04204 -2.04597,2.33975 0,1.29771 0.92312,2.35941 2.04597,2.35941 1.12284,0 2.0263,-1.0617 2.0263,-2.35941 l -0.0394,-0.47188 c -0.1945,-1.09224 -1.02209,-1.86787 -1.98695,-1.86787 z"
+       style="fill:#6d9cbe;fill-opacity:1;fill-rule:nonzero;stroke:#6d9cbe;stroke-width:0.47696862000000001;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-1024.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path7334-9-8-1"
+       d="m 508.21441,301.78092 c -1.12284,0 -2.04597,1.04203 -2.04597,2.33975 0,1.29771 0.92313,2.3594 2.04597,2.3594 1.12284,0 2.0263,-1.06169 2.0263,-2.3594 l -0.0393,-0.47189 c -0.19451,-1.09223 -1.0221,-1.86786 -1.98696,-1.86786 z"
+       style="fill:#6d9cbe;fill-opacity:1;fill-rule:nonzero;stroke:#6d9cbe;stroke-width:0.47696862000000001;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-1024.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       transform="scale(1.0002817,0.99971836)"
+       sodipodi:linespacing="125%"
+       id="text7889-9"
+       y="292.12363"
+       x="405.97137"
+       style="font-size:15.1044693px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-1024.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="292.12363"
+         x="405.97137"
+         id="tspan7891-5"
+         sodipodi:role="line">33</tspan></text>
+    <text
+       transform="scale(1.0002817,0.99971836)"
+       sodipodi:linespacing="125%"
+       id="text7893-4"
+       y="292.48325"
+       x="446.96924"
+       style="font-size:15.1044693px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-1024.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="292.48325"
+         x="446.96924"
+         id="tspan7895-5"
+         sodipodi:role="line">34</tspan></text>
+    <text
+       transform="scale(1.0002817,0.99971836)"
+       sodipodi:linespacing="125%"
+       id="text7897-2"
+       y="293.20251"
+       x="528.06592"
+       style="font-size:15.1044693px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-1024.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="293.20251"
+         x="528.06592"
+         id="tspan7899-6"
+         sodipodi:role="line">63</tspan></text>
+    <text
+       transform="scale(1.0002817,0.99971836)"
+       sodipodi:linespacing="125%"
+       id="text7901-3"
+       y="292.66302"
+       x="567.98492"
+       style="font-size:15.1044693px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-1024.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="292.66302"
+         x="567.98492"
+         id="tspan7903-1"
+         sodipodi:role="line">64</tspan></text>
+    <rect
+       transform="matrix(0.54618549,0,0,0.50635905,222.58677,-43.692618)"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-1024.png"
+       ry="6.6537166"
+       y="191.33664"
+       x="190.47107"
+       height="75.50248"
+       width="73.626511"
+       id="rect6201-6-0-8-1-64-8"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.30018854;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter6580-7-0-1-9-61-2)" />
+    <rect
+       transform="matrix(0.54618549,0,0,0.50635905,270.25785,-44.294575)"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-1024.png"
+       ry="6.6537166"
+       y="191.33664"
+       x="190.47107"
+       height="75.50248"
+       width="73.626511"
+       id="rect6201-6-0-8-1-64-1"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.30018854;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter6580-7-0-1-9-61-4)" />
+    <path
+       transform="matrix(0.40252961,0,0,0.4229277,528.83017,131.27718)"
+       sodipodi:open="true"
+       sodipodi:end="6.0802029"
+       sodipodi:start="0"
+       d="m 271.73103,411.42038 a 5.0507627,5.5558391 0 1 1 -0.10369,-1.12001"
+       sodipodi:ry="5.5558391"
+       sodipodi:rx="5.0507627"
+       sodipodi:cy="411.42038"
+       sodipodi:cx="266.68027"
+       id="path7334-1-8"
+       style="fill:#6d9cbe;fill-opacity:1;fill-rule:nonzero;stroke:#6d9cbe;stroke-width:1.15600002000000002;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-1024.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="matrix(0.40252961,0,0,0.4229277,537.55938,131.39173)"
+       sodipodi:open="true"
+       sodipodi:end="6.0802029"
+       sodipodi:start="0"
+       d="m 271.73103,411.42038 a 5.0507627,5.5558391 0 1 1 -0.10369,-1.12001"
+       sodipodi:ry="5.5558391"
+       sodipodi:rx="5.0507627"
+       sodipodi:cy="411.42038"
+       sodipodi:cx="266.68027"
+       id="path7334-2-3-1"
+       style="fill:#6d9cbe;fill-opacity:1;fill-rule:nonzero;stroke:#6d9cbe;stroke-width:1.15600002000000002;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-1024.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path7334-9-3-8"
+       d="m 654.4447,303.23102 c -1.12285,0 -2.04597,1.04204 -2.04597,2.33975 0,1.29771 0.92312,2.35941 2.04597,2.35941 1.12284,0 2.0263,-1.0617 2.0263,-2.35941 l -0.0394,-0.47188 c -0.1945,-1.09224 -1.02209,-1.86787 -1.98695,-1.86787 z"
+       style="fill:#6d9cbe;fill-opacity:1;fill-rule:nonzero;stroke:#6d9cbe;stroke-width:0.47696862000000001;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-1024.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path7334-9-8-1-4"
+       d="m 663.90311,303.15695 c -1.12284,0 -2.04597,1.04203 -2.04597,2.33975 0,1.29771 0.92313,2.3594 2.04597,2.3594 1.12284,0 2.0263,-1.06169 2.0263,-2.3594 l -0.0394,-0.47189 c -0.19451,-1.09223 -1.0221,-1.86786 -1.98696,-1.86786 z"
+       style="fill:#6d9cbe;fill-opacity:1;fill-rule:nonzero;stroke:#6d9cbe;stroke-width:0.47696862000000001;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-1024.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path8322-0"
+       d="M 327.86783,91.448016 C 240.11068,155.6399 240.11068,155.6399 240.11068,155.6399"
+       style="stroke-linejoin:miter;marker-end:url(#Arrow1Lend-6-3b);stroke-opacity:1;stroke:#6d9dbe;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-width:0.62900000000000000;fill:none"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-1024.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       transform="matrix(0.62953023,0,0,0.62917563,101.40428,-24.255216)"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-1024.png"
+       ry="6.6537166"
+       y="84.280159"
+       x="208.91072"
+       height="75.50248"
+       width="73.626511"
+       id="rect6201-1-9-1"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.30018854;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter6580-5-9-8)" />
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-1024.png"
+       transform="scale(0.86895717,1.1508047)"
+       inkscape:transform-center-y="-6.4442606"
+       sodipodi:linespacing="125%"
+       id="text6203-9-7"
+       y="49.580082"
+       x="289.17776"
+       style="font-size:15.36277866px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="49.580082"
+         x="289.17776"
+         id="tspan6205-6-0"
+         sodipodi:role="line">c</tspan></text>
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-1024.png"
+       inkscape:connector-curvature="0"
+       id="path6255-5-7"
+       d="m 279.64639,52.419076 c 43.88413,19.504396 43.88413,19.504396 43.88413,19.504396"
+       style="stroke-linejoin:miter;marker-end:url(#Arrow1Lend-6Z);stroke-opacity:1;stroke:#6d9dbe;stroke-linecap:butt;stroke-width:0.85628824999999986px;fill:none" />
+    <rect
+       transform="matrix(0.8007228,0,0,0.50635904,528.684,173.07057)"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-1024.png"
+       ry="6.6537166"
+       y="191.33664"
+       x="190.47107"
+       height="75.50248"
+       width="73.626511"
+       id="rect6201-6-0-8-1-4-7"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.30018854;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter6580-7-0-1-9-8-2)" />
+    <text
+       transform="scale(1.0002818,0.99971829)"
+       sodipodi:linespacing="125%"
+       id="text7901-3-7"
+       y="294.00763"
+       x="691.17151"
+       style="font-size:15.10446835px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-1024.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="294.00763"
+         x="691.17151"
+         id="tspan7903-1-0"
+         sodipodi:role="line">1024</tspan></text>
+    <rect
+       transform="matrix(0.54618549,0,0,0.50635905,391.48218,63.385444)"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-1024.png"
+       ry="6.6537166"
+       y="191.33664"
+       x="190.47107"
+       height="75.50248"
+       width="73.626511"
+       id="rect6201-6-6-4"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.30018854;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter6580-7-6-1)" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path8324-8"
+       d="M 392.51026,91.749831 C 520.33051,158.48398 520.33051,158.48398 520.33051,158.48398"
+       style="stroke-linejoin:miter;marker-end:url(#Arrow1Lend-6-3N);stroke-opacity:1;stroke:#6d9dbe;stroke-linecap:butt;stroke-width:0.62935286999999995px;fill:none"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-1024.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       transform="matrix(0.86760805,0,0,0.80479762,27.065469,443.88708)"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-33.png"
+       ry="6.6537166"
+       y="191.33664"
+       x="190.47107"
+       height="75.50248"
+       width="73.626511"
+       id="rect6201-8"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.30018854;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter6580-3)" />
+    <rect
+       transform="matrix(0.86760805,0,0,0.80479762,92.852969,444.64996)"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-33.png"
+       ry="6.6537166"
+       y="191.33664"
+       x="190.47107"
+       height="75.50248"
+       width="73.626511"
+       id="rect6201-6-2"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.30018854;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter6580-7-4)" />
+    <rect
+       transform="matrix(0.86760805,0,0,0.80479762,225.01541,444.64996)"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-33.png"
+       ry="6.6537166"
+       y="191.33664"
+       x="190.47107"
+       height="75.50248"
+       width="73.626511"
+       id="rect6201-6-0-8-13"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.30018854;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter6580-7-0-1-5)" />
+    <rect
+       transform="matrix(0.86760805,0,0,0.80479762,291.01541,444.64996)"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-33.png"
+       ry="6.6537166"
+       y="191.33664"
+       x="190.47107"
+       height="75.50248"
+       width="73.626511"
+       id="rect6201-6-0-8-1-8"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.30018854;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter6580-7-0-1-9-1)" />
+    <path
+       transform="matrix(0.63941271,0,0,0.67219338,162.65991,378.17335)"
+       sodipodi:open="true"
+       sodipodi:end="6.0802029"
+       sodipodi:start="0"
+       d="m 271.73103,411.42038 a 5.0507627,5.5558391 0 1 1 -0.10369,-1.12001"
+       sodipodi:ry="5.5558391"
+       sodipodi:rx="5.0507627"
+       sodipodi:cy="411.42038"
+       sodipodi:cx="266.68027"
+       id="path7334-93"
+       style="fill:#6d9cbe;fill-opacity:1;fill-rule:nonzero;stroke:#6d9cbe;stroke-width:1.15600002000000002;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-33.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="matrix(0.63941271,0,0,0.67219338,176.52613,378.35541)"
+       sodipodi:open="true"
+       sodipodi:end="6.0802029"
+       sodipodi:start="0"
+       d="m 271.73103,411.42038 a 5.0507627,5.5558391 0 1 1 -0.10369,-1.12001"
+       sodipodi:ry="5.5558391"
+       sodipodi:rx="5.0507627"
+       sodipodi:cy="411.42038"
+       sodipodi:cx="266.68027"
+       id="path7334-2-5"
+       style="fill:#6d9cbe;fill-opacity:1;fill-rule:nonzero;stroke:#6d9cbe;stroke-width:1.15600002000000002;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-33.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path7334-9-4"
+       d="m 362.19684,651.47358 c -1.78362,0 -3.25,1.6562 -3.25,3.7187 0,2.0626 1.46638,3.75 3.25,3.75 1.78362,0 3.21875,-1.6874 3.21875,-3.75 l -0.0625,-0.75 c -0.30897,-1.736 -1.62358,-2.9687 -3.15625,-2.9687 z"
+       style="fill:#6d9cbe;fill-opacity:1;fill-rule:nonzero;stroke:#6d9cbe;stroke-width:0.75787150999999986;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-33.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path7334-9-8-12"
+       d="m 377.2214,651.35578 c -1.78362,0 -3.25,1.6562 -3.25,3.7188 0,2.0626 1.46638,3.75 3.25,3.75 1.78362,0 3.21875,-1.6874 3.21875,-3.75 l -0.0625,-0.75 c -0.30897,-1.736 -1.62358,-2.9688 -3.15625,-2.9688 z"
+       style="fill:#6d9cbe;fill-opacity:1;fill-rule:nonzero;stroke:#6d9cbe;stroke-width:0.75787150999999986;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-33.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text7889-2"
+       y="635.87592"
+       x="214.9915"
+       style="font-size:24px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-33.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="635.87592"
+         x="214.9915"
+         id="tspan7891-7"
+         sodipodi:role="line">1</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text7893-7"
+       y="636.44733"
+       x="280.13434"
+       style="font-size:24px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-33.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="636.44733"
+         x="280.13434"
+         id="tspan7895-9"
+         sodipodi:role="line">2</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text7897-1"
+       y="637.59015"
+       x="408.99149"
+       style="font-size:24px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-33.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="637.59015"
+         x="408.99149"
+         id="tspan7899-4"
+         sodipodi:role="line">31</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text7901-0"
+       y="636.73309"
+       x="472.42007"
+       style="font-size:24px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-33.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="636.73309"
+         x="472.42007"
+         id="tspan7903-4"
+         sodipodi:role="line">32</tspan></text>
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-33.png"
+       ry="6.6537166"
+       y="558.8924"
+       x="46.308674"
+       height="75.50248"
+       width="73.626511"
+       id="rect6201-1-7"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.30018854;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter6580-5-3)" />
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-33.png"
+       transform="scale(0.86871245,1.1511289)"
+       inkscape:transform-center-y="-10.242366"
+       sodipodi:linespacing="125%"
+       id="text6203-8"
+       y="524.57062"
+       x="86.88533"
+       style="font-size:24.41043663px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="524.57062"
+         x="86.88533"
+         id="tspan6205-7"
+         sodipodi:role="line">a</tspan></text>
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-33.png"
+       inkscape:connector-curvature="0"
+       id="path6255-6"
+       d="m 120.53305,596.47698 c 69.70936,30.9999 69.70936,30.9999 69.70936,30.9999"
+       style="fill:none;stroke:#6d9dbe;stroke-width:1.36058521px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend-6W)" />
+    <rect
+       transform="matrix(0.86760805,0,0,0.80479762,195.55675,276.22146)"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-33.png"
+       ry="6.6537166"
+       y="191.33664"
+       x="190.47107"
+       height="75.50248"
+       width="73.626511"
+       id="rect6201-3-8"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.30018854;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter6580-9-6)" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text7889-0-0"
+       y="416.78174"
+       x="387.76846"
+       style="font-size:24px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="416.78174"
+         x="387.76846"
+         id="tspan7891-8-8"
+         sodipodi:role="line" /></text>
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-33.png"
+       ry="6.6537166"
+       y="391.22678"
+       x="214.79997"
+       height="75.50248"
+       width="73.626511"
+       id="rect6201-1-9-6"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.30018854;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter6580-5-9-4)" />
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-33.png"
+       transform="scale(0.86871245,1.1511289)"
+       inkscape:transform-center-y="-10.242366"
+       sodipodi:linespacing="125%"
+       id="text6203-9-1"
+       y="378.91739"
+       x="280.84052"
+       style="font-size:24.41043663px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="378.91739"
+         x="280.84052"
+         id="tspan6205-6-4"
+         sodipodi:role="line">b</tspan></text>
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-33.png"
+       inkscape:connector-curvature="0"
+       id="path6255-5-5"
+       d="m 289.02433,428.81132 c 69.70936,30.99991 69.70936,30.99991 69.70936,30.99991"
+       style="fill:none;stroke:#6d9dbe;stroke-width:1.36058521px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend-6p)" />
+    <rect
+       transform="matrix(0.86760805,0,0,0.80479762,452.1627,445.60929)"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-33.png"
+       ry="6.6537166"
+       y="191.33664"
+       x="190.47107"
+       height="75.50248"
+       width="73.626511"
+       id="rect6201-6-0-8-1-6"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.30018854;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter6580-7-0-1-9-6-9)" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text7901-8"
+       y="637.69232"
+       x="633.56732"
+       style="font-size:24px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-33.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="637.69232"
+         x="633.56732"
+         id="tspan7903-0"
+         sodipodi:role="line">33</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path8322-2"
+       d="M 362.45278,488.57762 C 223.05173,590.60303 223.05173,590.60303 223.05173,590.60303"
+       style="fill:none;stroke:#6d9dbe;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend-6-3a)"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-33.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path8324-5"
+       d="M 423.08224,489.56747 C 626.1229,595.63348 626.1229,595.63348 626.1229,595.63348"
+       style="fill:none;stroke:#6d9dbe;stroke-width:1px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-end:url(#Arrow1Lend-6-30)"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-33.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <rect
+       transform="matrix(0.86760805,0,0,0.80479762,50.496257,611.96251)"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-32.png"
+       ry="6.6537166"
+       y="191.33664"
+       x="190.47107"
+       height="75.50248"
+       width="73.626511"
+       id="rect6201-30"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.30018854;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter6580-6)" />
+    <rect
+       transform="matrix(0.86760805,0,0,0.80479762,116.28376,612.72539)"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-32.png"
+       ry="6.6537166"
+       y="191.33664"
+       x="190.47107"
+       height="75.50248"
+       width="73.626511"
+       id="rect6201-6-64"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.30018854;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter6580-7-5)" />
+    <rect
+       transform="matrix(0.86760805,0,0,0.80479762,248.4462,612.72539)"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-32.png"
+       ry="6.6537166"
+       y="191.33664"
+       x="190.47107"
+       height="75.50248"
+       width="73.626511"
+       id="rect6201-6-0-8-47"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.30018854;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter6580-7-0-1-75)" />
+    <rect
+       transform="matrix(0.86760805,0,0,0.80479762,314.4462,612.72539)"
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-32.png"
+       ry="6.6537166"
+       y="191.33664"
+       x="190.47107"
+       height="75.50248"
+       width="73.626511"
+       id="rect6201-6-0-8-1-5"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.30018854;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter6580-7-0-1-9-0)" />
+    <path
+       transform="matrix(0.63941271,0,0,0.67219338,186.0907,546.24879)"
+       sodipodi:open="true"
+       sodipodi:end="6.0802029"
+       sodipodi:start="0"
+       d="m 271.73103,411.42038 a 5.0507627,5.5558391 0 1 1 -0.10369,-1.12001"
+       sodipodi:ry="5.5558391"
+       sodipodi:rx="5.0507627"
+       sodipodi:cy="411.42038"
+       sodipodi:cx="266.68027"
+       id="path7334-3"
+       style="fill:#6d9cbe;fill-opacity:1;fill-rule:nonzero;stroke:#6d9cbe;stroke-width:1.15600002000000002;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-32.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       transform="matrix(0.63941271,0,0,0.67219338,199.95692,546.43085)"
+       sodipodi:open="true"
+       sodipodi:end="6.0802029"
+       sodipodi:start="0"
+       d="m 271.73103,411.42038 a 5.0507627,5.5558391 0 1 1 -0.10369,-1.12001"
+       sodipodi:ry="5.5558391"
+       sodipodi:rx="5.0507627"
+       sodipodi:cy="411.42038"
+       sodipodi:cx="266.68027"
+       id="path7334-2-8"
+       style="fill:#6d9cbe;fill-opacity:1;fill-rule:nonzero;stroke:#6d9cbe;stroke-width:1.15600002000000002;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       sodipodi:type="arc"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-32.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path7334-9-2"
+       d="m 385.62763,819.54899 c -1.78362,0 -3.25,1.65619 -3.25,3.71875 0,2.06256 1.46638,3.75 3.25,3.75 1.78362,0 3.21875,-1.68744 3.21875,-3.75 l -0.0625,-0.75 c -0.30897,-1.73598 -1.62358,-2.96875 -3.15625,-2.96875 z"
+       style="fill:#6d9cbe;fill-opacity:1;fill-rule:nonzero;stroke:#6d9cbe;stroke-width:0.75787150999999986;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-32.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path7334-9-8-7"
+       d="m 400.65219,819.43126 c -1.78362,0 -3.25,1.65619 -3.25,3.71875 0,2.06256 1.46638,3.75 3.25,3.75 1.78362,0 3.21875,-1.68744 3.21875,-3.75 l -0.0625,-0.75 c -0.30897,-1.73598 -1.62358,-2.96875 -3.15625,-2.96875 z"
+       style="fill:#6d9cbe;fill-opacity:1;fill-rule:nonzero;stroke:#6d9cbe;stroke-width:0.75787150999999986;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-32.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       sodipodi:linespacing="125%"
+       id="text7889-3"
+       y="803.95135"
+       x="238.42227"
+       style="font-size:24px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-32.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="803.95135"
+         x="238.42227"
+         id="tspan7891-53"
+         sodipodi:role="line">1</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text7893-74"
+       y="804.52277"
+       x="303.56512"
+       style="font-size:24px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-32.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="804.52277"
+         x="303.56512"
+         id="tspan7895-8"
+         sodipodi:role="line">2</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text7897-0"
+       y="805.66565"
+       x="432.42227"
+       style="font-size:24px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-32.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="805.66565"
+         x="432.42227"
+         id="tspan7899-0"
+         sodipodi:role="line">31</tspan></text>
+    <text
+       sodipodi:linespacing="125%"
+       id="text7901-1"
+       y="804.80847"
+       x="495.85086"
+       style="font-size:24px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-32.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         y="804.80847"
+         x="495.85086"
+         id="tspan7903-6"
+         sodipodi:role="line">32</tspan></text>
+    <rect
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-32.png"
+       ry="6.6537166"
+       y="726.96783"
+       x="69.739464"
+       height="75.50248"
+       width="73.626511"
+       id="rect6201-1-4"
+       style="fill:#ffffff;fill-opacity:1;fill-rule:nonzero;stroke:#000000;stroke-width:1.30018854;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;filter:url(#filter6580-5-6)" />
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-32.png"
+       transform="scale(0.86871245,1.1511289)"
+       inkscape:transform-center-y="-10.242366"
+       sodipodi:linespacing="125%"
+       id="text6203-5"
+       y="670.57983"
+       x="113.85719"
+       style="font-size:24.41043663px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       xml:space="preserve"><tspan
+         y="670.57983"
+         x="113.85719"
+         id="tspan6205-8"
+         sodipodi:role="line">a</tspan></text>
+    <path
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/vector-32.png"
+       inkscape:connector-curvature="0"
+       id="path6255-3"
+       d="m 143.96384,764.55237 c 69.70936,30.99991 69.70936,30.99991 69.70936,30.99991"
+       style="stroke-linejoin:miter;marker-end:url(#Arrow1Lend-6F);stroke-opacity:1;stroke:#6d9dbe;stroke-linecap:butt;stroke-width:1.36058520999999999px;fill:none" />
+  </g>
+</svg>
