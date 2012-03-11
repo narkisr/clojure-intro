@@ -276,10 +276,8 @@ ISeq cons(Object o);
 <div id="code byte-seq" class="step" data-x="5600" data-y="1900" data-z="-1000" data-rotate="360"> 
 	     <pre class="brush: clojure;">
 (defn- bytes-seq [input]
-  "Turns:
-    (. uc getInputStream)
-   into:
-      (01010101..)"
+  "Turns: (. uc getInputStream)
+   into: (97 98 99 100 10 101 102 ..)"
   (take-while #(not= -1 %) 
     (repeatedly #(. input read))))
             </pre>
@@ -288,8 +286,7 @@ ISeq cons(Object o);
 <div id="code chars" class="step" data-x="5600" data-y="2300" data-z="-1000" data-rotate="180"> 
 	     <pre class="brush: clojure;">
 ; (a b c d \newline f g ..)
-(map char 
-  (bytes-seq (. uc getInputStream)))
+(map char '(97 98 99 100 10 101 102 ..))
             </pre>
       </div>
 
@@ -298,26 +295,25 @@ ISeq cons(Object o);
 
 ; ((a b c d) (\newline) (f g) ..)
 (partition-by #(= \newline % )
-  (map char 
-    (bytes-seq 
-      (. uc getInputStream))))
+  (a b c d \newline f g ..))
             </pre>
       </div>
 
-<div id="code into-string" class="step" data-x="4600" data-y="2300" data-z="-1400" data-rotate="180"> 
+<div id="code into-string" class="step" data-x="4500" data-y="2300" data-z="-1400" data-rotate="180"> 
 	     <pre class="brush: clojure;">
-
-(defn- into-string [_chars] 
-  (reduce (fn [r c] (str r c)) "" _chars))
-
-; ("abcd" "\newline" "fg" ..)
-(map into-string
-  (partition-by #(= \newline % )
-    (map char 
-      (bytes-seq 
-       (. uc getInputStream)))))
+; ("abcd" "\n" "fg" ..)
+(map #(reduce (fn [r c] (str r c)) "" %)
+  '((a b c d) (\newline) (f g) ..))
             </pre>
-      </div>
+</div>
+
+<div id="code filter-blanks" class="step" data-x="3800" data-y="2300" data-z="-1400" data-rotate="180"> 
+	 <pre class="brush: clojure;">
+; ("abcd" "fg" ..)
+(filter (comp not blank?)
+  ("abcd" "\n" "fg" ..))
+       </pre>
+</div>
 
 
 
