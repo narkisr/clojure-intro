@@ -202,7 +202,7 @@ ISeq cons(Object o);
           </pre>
       </div>
 
-      <div id="code seq-basics" class="step" data-x="3300" data-y="1400" data-z="-1200" data-rotate="180"> 
+      <div id="code seq-basics" class="step" data-x="3400" data-y="1400" data-z="-1200" data-rotate="180"> 
 	     <pre class="brush: clojure;">
              (def a [2 3])
 
@@ -214,7 +214,26 @@ ISeq cons(Object o);
             </pre>
       </div>
 
+      <div id="natural-title" class="step title" data-x="3300" data-y="1400" data-rotate="180" data-z="-1400"> 
+	  <span class="Unicode">ℕ</span> = {1,2,..}
+	 </div>
 
+
+      <div id="code natural-numbers" class="step" data-x="2800" data-y="1400" data-z="-1600" data-rotate="180"> 
+	     <pre class="brush: clojure;">
+(def n (iterate inc 0))
+
+(take 5 n); '(0 1 2 3 4)
+
+(take 5 (map #(* % %) n)); '(0 1 4 9 16)
+
+(reduce + (take 5 n)); 10 
+            </pre>
+      </div>
+
+      <div id="couch-title" class="step" data-x="3000" data-y="1000" data-z="-1600" data-rotate="180">  
+	     <img src="img/couchDB.png" /> 
+	</div>
 
 	<div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
 	</div> 
