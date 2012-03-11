@@ -255,25 +255,7 @@ ISeq cons(Object o);
             </pre>
       </div>
 
-
-
-<div id="code change-seq" class="step" data-x="4800" data-y="1900" data-z="-1200" data-rotate="360"> 
-	     <pre class="brush: clojure;">
-(defn changes-seq []
- "A sequence made of couchdb changes stream"
- (let [url (URL. (couch str changes))
-       conn (. url openConnection)
-       uc (.connect conn)]
-  (filter (comp not blank?)
-    (map into-string 
-      (partition-by #(= \newline % )
-        (map char 
-          (bytes-seq 
-            (. uc getInputStream))))))))
-            </pre>
-      </div>
-
-<div id="code byte-seq" class="step" data-x="5600" data-y="1900" data-z="-1000" data-rotate="360"> 
+<div id="code byte-seq" class="step" data-x="4800" data-y="1900" data-z="-1200" data-rotate="360"> 
 	     <pre class="brush: clojure;">
 (defn- bytes-seq [input]
   "Turns: (. uc getInputStream)
@@ -283,7 +265,7 @@ ISeq cons(Object o);
             </pre>
       </div>
 
-<div id="code chars" class="step" data-x="5600" data-y="2300" data-z="-1000" data-rotate="180"> 
+<div id="code chars" class="step" data-x="5500" data-y="1900" data-z="-1000" data-rotate="360"> 
 	     <pre class="brush: clojure;">
 ; (a b c d \newline f g ..)
 (map char '(97 98 99 100 10 101 102 ..))
@@ -292,7 +274,6 @@ ISeq cons(Object o);
 
 <div id="code partition" class="step" data-x="5000" data-y="2300" data-z="-1200" data-rotate="180"> 
 	     <pre class="brush: clojure;">
-
 ; ((a b c d) (\newline) (f g) ..)
 (partition-by #(= \newline % )
   (a b c d \newline f g ..))
@@ -307,13 +288,29 @@ ISeq cons(Object o);
             </pre>
 </div>
 
-<div id="code filter-blanks" class="step" data-x="3800" data-y="2300" data-z="-1400" data-rotate="180"> 
+<div id="code filter-blanks" class="step" data-x="3800" data-y="2300" data-z="-1600" data-rotate="180"> 
 	 <pre class="brush: clojure;">
 ; ("abcd" "fg" ..)
 (filter (comp not blank?)
   ("abcd" "\n" "fg" ..))
        </pre>
 </div>
+
+<div id="code change-seq" class="step" data-x="4800" data-y="2700" data-z="-1200" data-rotate="360"> 
+	     <pre class="brush: clojure;">
+(defn changes-seq []
+ "A sequence made of couchdb changes stream"
+ (let [url (URL. (couch str changes))
+       conn (. url openConnection)
+       uc (.connect conn)]
+  (filter (comp not blank?)
+    (map into-string 
+      (partition-by #(= \newline % )
+        (map char 
+          (bytes-seq 
+            (. uc getInputStream))))))))
+            </pre>
+      </div>
 
 
 
