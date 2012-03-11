@@ -231,9 +231,47 @@ ISeq cons(Object o);
             </pre>
       </div>
 
-      <div id="couch-title" class="step" data-x="3000" data-y="1000" data-z="-1600" data-rotate="180">  
+      <div id="couch-title" class="step" data-x="3000" data-y="1900" data-z="-1600" data-rotate="360">  
 	     <img src="img/couchDB.png" /> 
 	</div>
+
+      <div id="code changes-stream" class="step" data-x="4000" data-y="1900" data-z="-1400" data-rotate="360"> 
+	     <pre class="brush: javascript;">
+{"results":[
+ {"seq":2,
+  "id":"8871420951859863603",
+  "changes":
+  [{"rev":"3-d56ec84a0932b2f6eb2251"}]},
+ {"seq":31,
+  "id":"6d97cf1c7df8ebd58f46cdbb",
+ "changes":
+  [{"rev":"2-3470a6223435b4ba8ae"}],
+ "deleted":true},
+ {"seq":40,
+  "id":"_design/managment",
+  "changes":
+  [{"rev":"1-3168fe416bb182276433c"}]}
+  ...
+            </pre>
+      </div>
+
+<div id="code change-seq" class="step" data-x="4800" data-y="1900" data-z="-1200" data-rotate="360"> 
+	     <pre class="brush: clojure;">
+(defn changes-seq []
+ "A sequence made of couchdb changes stream"
+ (let [url (URL. (couch str changes))
+       conn (. url openConnection)
+       uc (.connect conn)]
+  (filter (comp not blank?)
+    (map into-string 
+      (partition-by #(= \newline % )
+        (map char 
+          (bytes-seq 
+            (. uc getInputStream))))))))
+            </pre>
+      </div>
+
+
 
 	<div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
 	</div> 
@@ -246,6 +284,7 @@ ISeq cons(Object o);
     <script type="text/javascript" src="js/shCore.js"></script>
     <script type="text/javascript" src="js/shBrushClojure.js"></script>
     <script type="text/javascript" src="js/shBrushJava.js"></script>
+    <script type="text/javascript" src="js/shBrushJScript.js"></script>
     <script type="text/javascript"> 
 	SyntaxHighlighter.defaults['gutter'] = false;
 	SyntaxHighlighter.defaults['smart-tabs'] = false;
