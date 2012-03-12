@@ -326,9 +326,51 @@ ISeq cons(Object o);
 	</div>
 
 
-	<div id="ref-types" class="step" data-x="-3000" data-y="2300" data-z="0" data-rotate="0" data-scale="1">  
+	<div id="ref-types" class="step" data-x="-3600" data-y="2600" data-z="0" data-rotate="0" data-scale="3">  
 	     <img src="img/ref-types.png" /> 
 	</div>
+
+	<div id="agents-overview" class="step" data-x="-3900" data-y="3100" data-z="-1200" data-rotate="0" data-scale="1" > 
+Single value store manipulated via messages (Actor like)
+Mutation: send, send-of
+	</div>
+
+     <div id="code agent" class="step" data-x="-3800" data-y="3400" data-z="-1000" data-rotate="0"> 
+	 <pre class="brush: clojure;">
+(def a (agent 5))
+
+(dotimes [i 5] 
+  ; we use send-of and not send
+  (send-off a #(do (Thread/sleep 100) (inc %))))
+
+@a ; 5 
+
+(await a)
+
+@a ; 10
+       </pre>
+    </div>
+
+    <div id="atom-to-agent" class="step" data-x="-2800" data-y="2900" data-z="100" data-rotate="0" data-scale="1" > 
+   </div>
+	<div id="atom-overview" class="step" data-x="-2800" data-y="3100" data-z="-1200" data-rotate="0" data-scale="1" > 
+         Synchronous non transactional storage with CAS semantics
+         Mutation done by reset!, compare-and-set! and swap!
+	</div>
+
+     <div id="code atom" class="step" data-x="-2700" data-y="3400" data-z="-1000" data-rotate="0"> 
+	 <pre class="brush: clojure;">
+(def x (atom 1))
+
+(reset! x 2); 2
+
+(compare-and-set! x 3 (inc 2)) ; -> false
+
+(swap! x 3 #(inc %)) ; -> 3
+
+ @x ; -> 3
+       </pre>
+    </div>
 
 
 	<div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
