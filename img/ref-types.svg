@@ -14,7 +14,10 @@
    version="1.1"
    id="svg7853"
    height="1052.3622047"
-   width="744.09448819">
+   width="744.09448819"
+   inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/ref-types.png"
+   inkscape:export-xdpi="90"
+   inkscape:export-ydpi="90">
   <sodipodi:namedview
      id="base"
      pagecolor="#ffffff"
@@ -22,9 +25,9 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="1.979899"
-     inkscape:cx="200.47242"
-     inkscape:cy="923.73326"
+     inkscape:zoom="1.4"
+     inkscape:cx="122.00113"
+     inkscape:cy="859.72686"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -344,7 +347,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -353,20 +356,29 @@
      inkscape:groupmode="layer"
      inkscape:label="Layer 1">
     <path
-       style="fill:none;stroke:#cc7833;stroke-width:2.29740238;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Send-8A)"
-       d="m 9.7372632,212.46674 c 4.0709988,1.65896 13.3016758,-0.62005 16.2959508,-8.698 3.197814,-8.62706 18.602503,-3.77702 18.602503,-3.77702"
+       style="fill:none;stroke:#cc7833;stroke-width:3.11972499;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Send-8A)"
+       d="m 12.166733,301.09851 c 5.264779,2.36546 17.202259,-0.88411 21.074576,-12.4022 4.13554,-12.30105 24.0575,-5.38553 24.0575,-5.38553"
        id="path9754-1"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="csc" />
+       sodipodi:nodetypes="csc"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/ref-types.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
-       style="fill:#ffffff;fill-opacity:1;stroke:#cc7833;stroke-width:2.29740238;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Send-8Y)"
-       d="m 9.8171172,199.12874 c 2.6288358,-0.22295 12.8484468,-1.41077 15.8427208,6.66718 3.197815,8.62706 18.602504,5.82845 18.602504,5.82845"
+       style="fill:none;fill-opacity:1;stroke:#cc7833;stroke-width:3.11972498999999992;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Send-8Y)"
+       d="m 12.270004,282.08028 c 3.399715,-0.3179 16.616125,-2.01157 20.48844,9.50652 4.135542,12.30105 24.057502,8.3106 24.057502,8.3106"
        id="path9754-3-5"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="csc" />
+       sodipodi:nodetypes="csc"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/ref-types.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <g
        id="g9994-4"
-       transform="matrix(0.83314684,0,0,0.74520529,-133.10181,14.679082)">
+       transform="matrix(1.0774588,0,0,1.0625645,-172.55847,19.079398)"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/ref-types.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <path
          inkscape:export-ydpi="90"
          inkscape:export-xdpi="90"
@@ -420,53 +432,56 @@
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
        inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/ref-types.png"
-       style="fill:none;stroke:#6d9dbe;stroke-width:0.95108855px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
-       d="M 16.116682,76.525243 429.99881,75.317356"
+       style="fill:none;stroke:#6d9dbe;stroke-width:1.29151714px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       d="M 20.416853,107.26387 555.66577,105.54158"
        id="path3157-0"
        inkscape:connector-curvature="0" />
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
        inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/ref-types.png"
-       style="fill:none;stroke:#6d9dbe;stroke-width:0.95108855px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
-       d="M 52.259599,37.584726 51.01492,265.61733"
+       style="fill:none;stroke:#6d9dbe;stroke-width:1.29151714px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       d="M 67.158318,51.739825 65.54865,376.88424"
        id="path3157-0-3"
        inkscape:connector-curvature="0" />
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
        inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/ref-types.png"
-       style="fill:none;stroke:#6d9dbe;stroke-width:0.95108855px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
-       d="m 14.472911,160.73455 413.882129,-1.2079"
+       style="fill:none;stroke:#6d9dbe;stroke-width:1.29151714px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       d="M 18.291062,227.33523 553.53998,225.61292"
        id="path3157-0-6"
        inkscape:connector-curvature="0" />
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
        inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/ref-types.png"
-       style="fill:none;stroke:#6d9dbe;stroke-width:0.95108855px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
-       d="M 14.472911,246.35638 428.35504,245.14849"
+       style="fill:none;stroke:#6d9dbe;stroke-width:1.29151714px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       d="M 18.291062,349.42067 553.53998,347.69838"
        id="path3157-0-6-8"
        inkscape:connector-curvature="0" />
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
        inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/ref-types.png"
-       style="fill:none;stroke:#6d9dbe;stroke-width:0.95108855px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
-       d="M 232.17687,37.844588 230.9322,265.8772"
+       style="fill:none;stroke:#6d9dbe;stroke-width:1.29151714px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       d="M 299.83453,52.110354 298.22487,377.25478"
        id="path3157-0-3-1"
        inkscape:connector-curvature="0" />
     <path
        inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
        inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/ref-types.png"
-       style="fill:none;stroke:#6d9dbe;stroke-width:0.95108855px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
-       d="m 429.02472,39.27161 -1.24466,228.03262"
+       style="fill:none;stroke:#6d9dbe;stroke-width:1.29151714px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       d="M 554.40604,54.1451 552.7964,379.28954"
        id="path3157-0-3-1-8"
        inkscape:connector-curvature="0" />
     <g
        id="g9994"
-       transform="matrix(0.83314684,0,0,0.74520529,56.057412,15.375048)">
+       transform="matrix(1.0774588,0,0,1.0625645,72.069802,20.071754)"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/ref-types.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90">
       <path
          inkscape:export-ydpi="90"
          inkscape:export-xdpi="90"
@@ -517,7 +532,7 @@
          transform="matrix(-0.72032066,0.31969395,-0.26856924,-0.91433495,544.41426,67.809201)" />
     </g>
     <path
-       transform="matrix(1.9856891e-4,0,0,1.9152755e-4,135.71085,29.802467)"
+       transform="matrix(2.5679726e-4,0,0,2.7309302e-4,175.08081,40.643351)"
        d="m 261.05162,145.54202 c 1.71175,1.33191 1.52718,3.91039 0.15114,5.40565 -0.68955,0.74929 -1.63101,1.2399 -2.63132,1.41451"
        sodipodi:t0="0.61528146"
        sodipodi:argument="-4.1578102"
@@ -533,26 +548,26 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
-       style="fill:#cc0000;stroke:#e71818;stroke-width:0.98290294px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="M 112.39491,63.440774 C 145.08322,30.191565 145.08322,30.191565 145.08322,30.191565"
+       style="fill:#cc0000;stroke:#e71818;stroke-width:1.33471906px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 144.92771,88.607139 C 187.20154,41.198153 187.20154,41.198153 187.20154,41.198153"
        id="path9683"
        inkscape:connector-curvature="0"
        inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/ref-types.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <rect
-       style="fill:#f00000;fill-opacity:0;fill-rule:nonzero;stroke:#000000;stroke-width:6.17644072;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0;stroke-dasharray:none;stroke-dashoffset:0"
+       style="fill:#f00000;fill-opacity:0;fill-rule:nonzero;stroke:#000000;stroke-width:8.38720989;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:0;stroke-dasharray:none;stroke-dashoffset:0"
        id="rect9685"
-       width="456.29431"
-       height="270.81421"
-       x="4.7099929"
-       y="7.3122211"
-       ry="21.570421"
+       width="590.09802"
+       height="386.14536"
+       x="5.6652665"
+       y="8.5752268"
+       ry="30.756575"
        inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/ref-types.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
-       transform="matrix(1.7288365e-4,0,0,1.8848437e-4,136.92798,29.56545)"
+       transform="matrix(2.2358005e-4,0,0,2.6875385e-4,176.65485,40.305396)"
        d="m 261.05162,145.54202 c 1.71175,1.33191 1.52718,3.91039 0.15114,5.40565 -0.68955,0.74929 -1.63101,1.2399 -2.63132,1.41451"
        sodipodi:t0="0.61528146"
        sodipodi:argument="-4.1578102"
@@ -569,52 +584,73 @@
        inkscape:export-ydpi="90" />
     <text
        xml:space="preserve"
-       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:130.99999428%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
-       x="296.4942"
-       y="129.22404"
+       style="font-size:43.45394516px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:130.99999428%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       x="402.17291"
+       y="173.7151"
        id="text9731"
-       sodipodi:linespacing="130.99999%"><tspan
+       sodipodi:linespacing="130.99999%"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/ref-types.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="scale(0.95235724,1.0500261)"><tspan
          sodipodi:role="line"
          id="tspan9733"
-         x="296.4942"
-         y="129.22404">Ref</tspan></text>
+         x="402.17291"
+         y="173.7151"
+         style="fill:#ffffff;fill-opacity:1">Ref</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:130.99999428%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
-       x="273.03662"
-       y="212.08118"
+       style="font-size:43.45394516px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:130.99999428%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       x="370.319"
+       y="286.22977"
        id="text9735"
-       sodipodi:linespacing="130.99999%"><tspan
+       sodipodi:linespacing="130.99999%"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/ref-types.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="scale(0.95235724,1.0500261)"><tspan
          sodipodi:role="line"
          id="tspan9737"
-         x="273.03662"
-         y="212.08118">Atom</tspan></text>
+         x="370.319"
+         y="286.22977"
+         style="fill:#ffffff;fill-opacity:1">Atom</tspan></text>
     <text
        xml:space="preserve"
-       style="font-size:32px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:130.99999428%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
-       x="87.914062"
-       y="212.01556"
+       style="font-size:43.45394516px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:130.99999428%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       x="118.93446"
+       y="286.14069"
        id="text9739"
-       sodipodi:linespacing="130.99999%"><tspan
+       sodipodi:linespacing="130.99999%"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/ref-types.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"
+       transform="scale(0.95235724,1.0500261)"><tspan
          sodipodi:role="line"
          id="tspan9741"
-         x="87.914062"
-         y="212.01556">Agent</tspan></text>
+         x="118.93446"
+         y="286.14069"
+         style="fill:#ffffff;fill-opacity:1;stroke:none">Agent</tspan></text>
     <path
-       style="stroke-linejoin:miter;marker-end:url(#Arrow2Send-8A);stroke-opacity:1;stroke:#cc7833;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-width:2.29740237999999986;fill:none"
-       d="m 8.0805229,124.89116 c 4.0709991,1.65896 13.3016761,-0.62005 16.2959511,-8.698 3.197814,-8.62706 18.602503,-3.77702 18.602503,-3.77702"
+       style="fill:none;stroke:#cc7833;stroke-width:3.11972499;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Send-8A)"
+       d="m 10.024171,176.22728 c 5.264778,2.36546 17.202259,-0.8841 21.074575,-12.4022 4.135541,-12.30105 24.057501,-5.38553 24.057501,-5.38553"
        id="path9754"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="csc" />
+       sodipodi:nodetypes="csc"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/ref-types.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
-       style="stroke-linejoin:miter;marker-end:url(#Arrow2Send-8Y);stroke-opacity:1;fill-opacity:1;stroke:#cc7833;stroke-linecap:butt;stroke-miterlimit:4;stroke-dasharray:none;stroke-width:2.29740237999999986;fill:#ffffff"
-       d="m 8.1603769,111.55316 c 2.6288361,-0.22295 12.8484471,-1.41077 15.8427211,6.66718 3.197815,8.62706 18.602504,5.82845 18.602504,5.82845"
+       style="fill:none;fill-opacity:1;stroke:#cc7833;stroke-width:3.11972498999999992;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-end:url(#Arrow2Send-8Y)"
+       d="m 10.127441,157.20906 c 3.399716,-0.3179 16.616125,-2.01158 20.48844,9.50652 4.135543,12.30104 24.057502,8.3106 24.057502,8.3106"
        id="path9754-3"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="csc" />
+       sodipodi:nodetypes="csc"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/ref-types.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
     <path
-       style="fill:#cc0000;stroke:#e71818;stroke-width:0.98290294px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 9.919811,222.47895 c 32.688305,-33.2492 32.688305,-33.2492 32.688305,-33.2492"
+       style="fill:#cc0000;stroke:#e71818;stroke-width:1.33471906px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 12.402811,315.3746 C 54.676635,267.96563 54.676635,267.96563 54.676635,267.96563"
        id="path9683-1"
        inkscape:connector-curvature="0"
        inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/ref-types.png"
