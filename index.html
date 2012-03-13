@@ -391,7 +391,7 @@ Mutation done via ref-set, alter and commute
     </pre>
   </div>
 
-<div id="code commute" class="step" data-x="-2600" data-y="2800" data-z="-1000" data-rotate="0"> 
+<div id="code alter-retry" class="step" data-x="-2600" data-y="2800" data-z="-1000" data-rotate="0"> 
 	 <pre class="brush: clojure;">
 (dosync
   (deposit -2)
@@ -406,6 +406,19 @@ Mutation done via ref-set, alter and commute
    <div id="alter-retries" class="step" data-x="-2100" data-y="2800" data-z="-1000" data-rotate="0" data-scale="1">  
 	     <img src="img/alter-retries.png/" /> 
 	</div>
+
+<div id="code commute" class="step" data-x="-1400" data-y="2800" data-z="-1000" data-rotate="0"> 
+	 <pre class="brush: clojure;">
+(defn deposit [amount]
+  (commute account + amount ))
+    </pre>
+  </div>
+
+
+   <div id="commute-timeline" class="step" data-x="-1000" data-y="2800" data-z="-1000" data-rotate="0" data-scale="1">  
+	     <img src="img/commute.png/" /> 
+	</div>
+
 
 
   <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
