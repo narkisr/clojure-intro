@@ -382,21 +382,28 @@ Coordinated storage using MVCC STM <br/>
 Mutation done via ref-set, alter and commute
     </div>
 
-     <div id="code refs" class="step" data-x="-3000" data-y="2200" data-z="-1000" data-rotate="0"> 
+     <div id="code alter" class="step" data-x="-3300" data-y="2800" data-z="-1000" data-rotate="0"> 
 	 <pre class="brush: clojure;">
 (def account (ref 0))
 
 (defn deposit [amount]
   (alter account + amount ))
 
-(def f (future (dosync (deposit 5))))
-
-@f ; forcing future 
-
-@account ; 5
+(future (dosync (deposit 5)))
     </pre>
   </div>
 
+<div id="code commute" class="step" data-x="-2600" data-y="2800" data-z="-1000" data-rotate="0"> 
+	 <pre class="brush: clojure;">
+(dosync
+  (deposit -2)
+  (Thread/sleep 500); taking the time
+  (deposit 5))
+
+(future 
+  (dosync (deposit 5)))
+    </pre>
+  </div>
   <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
   </div> 
 
