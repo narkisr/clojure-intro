@@ -68,3 +68,8 @@ div#asymp{
     -webkit-transform: scale(0.7);
     -webkit-transition-delay: 2s;
 }
+
+/*how visible backround objects are*/
+.step:not(.active) {
+    opacity: 0.1;
+}
