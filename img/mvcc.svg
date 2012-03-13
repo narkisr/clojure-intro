@@ -7,6 +7,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    width="744.09448819"
@@ -14,7 +15,7 @@
    id="svg5822"
    version="1.1"
    inkscape:version="0.48.2 r9819"
-   inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/T2.png"
+   inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/alter-retries.png"
    inkscape:export-xdpi="90"
    inkscape:export-ydpi="90"
    sodipodi:docname="mvcc.svg">
@@ -26,8 +27,8 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.4"
-     inkscape:cx="590.58924"
-     inkscape:cy="914.6982"
+     inkscape:cx="309.28143"
+     inkscape:cy="782.63368"
      inkscape:document-units="px"
      inkscape:current-layer="layer1"
      showgrid="false"
@@ -38,6 +39,30 @@
      inkscape:window-maximized="0" />
   <defs
      id="defs5824">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient6288">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop6290" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop6292" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient6238">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop6240" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop6242" />
+    </linearGradient>
     <marker
        style="overflow:visible"
        id="Arrow2Lend"
@@ -262,6 +287,274 @@
          id="path7426-38"
          inkscape:connector-curvature="0" />
     </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2SendRTg"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2SendRTg">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.3,0,0,-0.3,0.69,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="font-size:12px;fill:#a5c261;fill-rule:evenodd;stroke:#a5c261;stroke-width:0.625;stroke-linejoin:round"
+         id="path9602" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2SendRTg-8"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2SendRTg">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.3,0,0,-0.3,0.69,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="font-size:12px;fill:#a5c261;fill-rule:evenodd;stroke:#a5c261;stroke-width:0.625;stroke-linejoin:round"
+         id="path9602-9" />
+    </marker>
+    <marker
+       style="overflow:visible"
+       id="Arrow2SendRTg-88"
+       refX="0"
+       refY="0"
+       orient="auto"
+       inkscape:stockid="Arrow2SendRTg">
+      <path
+         inkscape:connector-curvature="0"
+         transform="matrix(-0.3,0,0,-0.3,0.69,0)"
+         d="M 8.7185878,4.0337352 -2.2072895,0.01601326 8.7185884,-4.0017078 c -1.7454984,2.3720609 -1.7354408,5.6174519 -6e-7,8.035443 z"
+         style="font-size:12px;fill:#a5c261;fill-rule:evenodd;stroke:#a5c261;stroke-width:0.625;stroke-linejoin:round"
+         id="path9602-8" />
+    </marker>
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6238"
+       id="radialGradient6244"
+       cx="439.17973"
+       cy="325.36777"
+       fx="439.17973"
+       fy="325.36777"
+       r="16.451955"
+       gradientTransform="matrix(1,0,0,0.57424564,0,138.52675)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6238"
+       id="radialGradient6246"
+       cx="388.75851"
+       cy="361.37673"
+       fx="388.75851"
+       fy="361.37673"
+       r="3.6232963"
+       gradientTransform="matrix(1,0,0,1.6336406,0,-228.98295)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6238"
+       id="radialGradient6248"
+       cx="427.65042"
+       cy="310.10999"
+       fx="427.65042"
+       fy="310.10999"
+       r="6.17827"
+       gradientTransform="matrix(1,0,0,1.3432099,0,-106.43281)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6238"
+       id="radialGradient6250"
+       cx="346.90292"
+       cy="324.99213"
+       fx="346.90292"
+       fy="324.99213"
+       r="13.349921"
+       gradientTransform="matrix(1,0,0,0.72367208,-111.02677,89.804398)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6238"
+       id="radialGradient6252"
+       cx="281.35858"
+       cy="392.11777"
+       fx="281.35858"
+       fy="392.11777"
+       r="2.5264891"
+       gradientTransform="matrix(1,0,0,2.5108696,-95.022562,-592.43881)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6238"
+       id="radialGradient6254"
+       cx="334.11291"
+       cy="309.95541"
+       fx="334.11291"
+       fy="309.95541"
+       r="6.17827"
+       gradientTransform="matrix(1,0,0,1.3432099,-116.45833,-106.37976)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6238"
+       id="radialGradient6256"
+       cx="255.9615"
+       cy="325.6182"
+       fx="255.9615"
+       fy="325.6182"
+       r="16.451955"
+       gradientTransform="matrix(1,0,0,0.57424564,0,138.63337)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6238"
+       id="radialGradient6258"
+       cx="218.56504"
+       cy="361.64636"
+       fx="218.56504"
+       fy="361.64636"
+       r="3.6232963"
+       gradientTransform="matrix(1,0,0,1.6336406,0,-229.1538)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6238"
+       id="radialGradient6260"
+       cx="235.46878"
+       cy="310.34873"
+       fx="235.46878"
+       fy="310.34873"
+       r="6.17827"
+       gradientTransform="matrix(1,0,0,1.3432099,0,-106.51475)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6238"
+       id="radialGradient6262"
+       cx="158.40338"
+       cy="322.38153"
+       fx="158.40338"
+       fy="322.38153"
+       r="16.451955"
+       gradientTransform="matrix(1,0,0,0.57424564,0,137.25534)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6238"
+       id="radialGradient6264"
+       cx="127.94202"
+       cy="358.16201"
+       fx="127.94202"
+       fy="358.16201"
+       r="3.6232963"
+       gradientTransform="matrix(1,0,0,1.6336406,0,-226.94598)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6238"
+       id="radialGradient6266"
+       cx="133.13814"
+       cy="307.263"
+       fx="133.13814"
+       fy="307.263"
+       r="6.17827"
+       gradientTransform="matrix(1,0,0,1.3432099,0,-105.4557)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6238"
+       id="radialGradient6268"
+       cx="79.390573"
+       cy="322.83366"
+       fx="79.390573"
+       fy="322.83366"
+       r="17.35079"
+       gradientTransform="matrix(1,0,0,0.54526665,0,146.80323)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6238"
+       id="radialGradient6270"
+       cx="48.983277"
+       cy="389.82962"
+       fx="48.983277"
+       fy="389.82962"
+       r="2.5264891"
+       gradientTransform="matrix(1,0,0,2.5108696,0,-588.98172)"
+       gradientUnits="userSpaceOnUse" />
+    <radialGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6238"
+       id="radialGradient6272"
+       cx="49.317126"
+       cy="308.08841"
+       fx="49.317126"
+       fy="308.08841"
+       r="6.17827"
+       gradientTransform="matrix(1,0,0,1.3432099,0,-105.73899)"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6288"
+       id="linearGradient6294"
+       x1="242.17517"
+       y1="477.43362"
+       x2="300.202"
+       y2="477.43362"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-113.32823,-16.882511)" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6288"
+       id="linearGradient6296"
+       x1="219.42175"
+       y1="511.7372"
+       x2="283.28912"
+       y2="511.7372"
+       gradientUnits="userSpaceOnUse" />
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6288-3"
+       id="linearGradient6294-8"
+       x1="242.17517"
+       y1="477.43362"
+       x2="300.202"
+       y2="477.43362"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-113.32823,-16.882511)" />
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient6288-3">
+      <stop
+         style="stop-color:#000000;stop-opacity:1;"
+         offset="0"
+         id="stop6290-9" />
+      <stop
+         style="stop-color:#000000;stop-opacity:0;"
+         offset="1"
+         id="stop6292-2" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6288-3"
+       id="linearGradient6312"
+       x1="242.17517"
+       y1="477.43362"
+       x2="300.202"
+       y2="477.43362"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="translate(-113.32823,-16.882511)" />
+    <linearGradient
+       y2="477.43362"
+       x2="300.202"
+       y1="477.43362"
+       x1="242.17517"
+       gradientTransform="translate(-26.550699,-15.320744)"
+       gradientUnits="userSpaceOnUse"
+       id="linearGradient6322"
+       xlink:href="#linearGradient6288-3"
+       inkscape:collect="always" />
   </defs>
   <metadata
      id="metadata5827">
@@ -282,14 +575,6 @@
      inkscape:label="Layer 1">
     <path
        inkscape:connector-curvature="0"
-       id="path6585-4-2"
-       d="m 403.26688,149.76466 129.69055,-0.79998"
-       style="fill:none;stroke:#a5c261;stroke-width:1.0378319;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker-start:none;marker-end:url(#marker5850B);display:inline"
-       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/T1.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       inkscape:connector-curvature="0"
        id="path3157-0"
        d="M 20.967978,696.05846 710.07779,694.36559"
        style="fill:none;stroke:#6d9dbe;stroke-width:1.45286477px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
@@ -297,61 +582,21 @@
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <text
-       transform="matrix(0.96504705,-0.00120468,0.00129352,1.0362173,0,0)"
+       transform="matrix(0.84757702,-0.00137164,0.00113607,1.1798319,0,0)"
        sodipodi:linespacing="130.99999%"
        id="text3163"
-       y="156.05363"
-       x="351.51724"
-       style="font-size:60.77370453px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:130.99999428%;letter-spacing:0px;word-spacing:0px;fill:#cc7833;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       y="134.47696"
+       x="53.725033"
+       style="font-size:95.68241119px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:130.99999428%;letter-spacing:0px;word-spacing:0px;fill:#cc7833;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
        xml:space="preserve"
-       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/T1.png"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/alter-retries.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
-         style="font-size:30.38685226px;fill:#cc7833;fill-opacity:1"
-         y="156.05363"
-         x="351.51724"
+         style="font-size:37.7857132px;fill:#cc7833;fill-opacity:1"
+         y="134.47696"
+         x="53.725033"
          id="tspan3165"
          sodipodi:role="line">T1</tspan></text>
-    <text
-       transform="matrix(0.96504705,-0.00120468,0.00129352,1.0362173,0,0)"
-       sodipodi:linespacing="130.99999%"
-       id="text3163-3"
-       y="196.46745"
-       x="421.50839"
-       style="font-size:60.77370453px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:130.99999428%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
-       xml:space="preserve"
-       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/T1.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         style="font-size:30.38685226px;fill:#da4939;fill-opacity:1;stroke:none"
-         y="196.46745"
-         x="421.50839"
-         id="tspan3165-9"
-         sodipodi:role="line">T2</tspan></text>
-    <path
-       inkscape:connector-curvature="0"
-       id="path3157"
-       d="m 389.79998,69.439691 -0.0822,339.971619"
-       style="fill:none;stroke:#6d9dbe;stroke-width:1.02046239px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/T1.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path3167"
-       d="m 384.73441,148.02865 c 9.75926,0.18844 10.14964,0.19597 10.14964,0.19597"
-       style="fill:none;stroke:#6d9dbe;stroke-width:0.60947007px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/T1.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <path
-       inkscape:connector-curvature="0"
-       id="path3167-1"
-       d="m 384.85139,188.07718 c 9.75928,0.18844 10.14964,0.19597 10.14964,0.19597"
-       style="fill:none;stroke:#6d9dbe;stroke-width:0.60947007px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/T1.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
     <flowRoot
        xml:space="preserve"
        id="flowRoot7767"
@@ -362,169 +607,656 @@
            height="515.1778"
            x="-61.619305"
            y="-98.201569" /></flowRegion><flowPara
-         id="flowPara7773" /></flowRoot>    <g
-       id="g4361"
-       transform="translate(337.85714,-1.4285714)">
-      <text
-         inkscape:export-ydpi="90"
-         inkscape:export-xdpi="90"
-         inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/T1.png"
-         xml:space="preserve"
-         style="font-size:49.6070137px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:130.99999428%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
-         x="193.25023"
-         y="168.96704"
-         id="text3159"
-         sodipodi:linespacing="130.99999%"
-         transform="scale(1.0764513,0.92897839)"><tspan
-           sodipodi:role="line"
-           id="tspan3161"
-           x="193.25023"
-           y="168.96704"
-           style="font-size:32.65031433px">a</tspan></text>
-      <text
-         transform="scale(1.1991229,0.83394287)"
-         sodipodi:linespacing="130.99999%"
-         id="text4239"
-         y="191.27196"
-         x="187.08275"
-         style="font-size:9.8217144px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:130.99999428%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
-         xml:space="preserve"><tspan
-           y="191.27196"
-           x="187.08275"
-           id="tspan4241"
-           sodipodi:role="line">1</tspan></text>
-    </g>
-    <text
-       transform="scale(1.0079132,0.99214893)"
+         id="flowPara7773" /></flowRoot>    <text
+       transform="scale(0.93227706,1.0726425)"
        sodipodi:linespacing="130.99999%"
-       id="text3159-1"
-       y="141.59381"
-       x="425.05527"
-       style="font-size:64.89581299px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:130.99999428%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       id="text3159"
+       y="38.473152"
+       x="36.195225"
+       style="font-size:46.35510254px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:130.99999428%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
        xml:space="preserve"
-       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/T1.png"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/alter-retries.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
-         style="font-size:13.08198357px"
-         y="141.59381"
-         x="425.05527"
-         id="tspan3161-1"
-         sodipodi:role="line">(deposit -2)</tspan></text>
-    <text
-       transform="scale(1.0764513,0.92897839)"
-       sodipodi:linespacing="130.99999%"
-       id="text3159-8"
-       y="210.24069"
-       x="191.68965"
-       style="font-size:49.6070137px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:130.99999428%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
-       xml:space="preserve"
-       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/T1.png"
-       inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90"><tspan
-         style="font-size:32.65031433px"
-         y="210.24069"
-         x="191.68965"
-         id="tspan3161-0"
+         style="font-size:30.50997543px;fill:#ffffff;fill-opacity:1"
+         y="38.473152"
+         x="36.195225"
+         id="tspan3161"
          sodipodi:role="line">a</tspan></text>
-    <path
-       inkscape:connector-curvature="0"
-       id="path6585-4-2-1"
-       d="m 380.35118,187.11894 -129.69236,0.41351"
-       style="fill:none;stroke:#a5c261;stroke-width:1.0378319;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker-start:none;marker-end:url(#marker5850B);display:inline"
-       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/T1.png"
+    <text
+       inkscape:export-ydpi="90"
        inkscape:export-xdpi="90"
-       inkscape:export-ydpi="90" />
-    <text
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/alter-retries.png"
        xml:space="preserve"
-       style="font-size:9.8217144px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:130.99999428%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
-       x="185.68166"
-       y="237.2487"
-       id="text4239-7"
+       style="font-size:18.30789185px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:130.99999428%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       x="40.159046"
+       y="55.977127"
+       id="text4239"
        sodipodi:linespacing="130.99999%"
-       transform="scale(1.1991229,0.83394287)"><tspan
+       transform="scale(1.1425858,0.8752078)"><tspan
          sodipodi:role="line"
-         id="tspan4241-9"
-         x="185.68166"
-         y="237.2487">2</tspan></text>
+         id="tspan4241"
+         x="40.159046"
+         y="55.977127">1</tspan></text>
     <text
-       transform="scale(1.0079132,0.99214893)"
+       transform="scale(0.97788511,1.022615)"
        sodipodi:linespacing="130.99999%"
-       id="text3159-1-1"
-       y="181.67917"
-       x="278.11038"
-       style="font-size:64.89581299px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:130.99999428%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       id="text3159-0"
+       y="41.136627"
+       x="55.256294"
+       style="font-size:40.54784012px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:130.99999428%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
        xml:space="preserve"
-       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/T1.png"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/alter-retries.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
-         style="font-size:13.08198357px"
-         y="181.67917"
-         x="278.11038"
-         id="tspan3161-1-0"
-         sodipodi:role="line">(deposit 5)</tspan></text>
+         style="font-size:26.68774986px;fill:#ffffff;fill-opacity:1"
+         y="41.136627"
+         x="55.256294"
+         id="tspan3161-2"
+         sodipodi:role="line">=-2</tspan></text>
     <text
-       transform="matrix(0.96504705,-0.00120468,0.00129352,1.0362173,0,0)"
+       transform="scale(0.93227706,1.0726425)"
+       sodipodi:linespacing="130.99999%"
+       id="text3159-06"
+       y="37.647739"
+       x="120.01624"
+       style="font-size:46.35510254px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:130.99999428%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       xml:space="preserve"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/alter-retries.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         style="font-size:30.50997543px;fill:#ffffff;fill-opacity:1"
+         y="37.647739"
+         x="120.01624"
+         id="tspan3161-6"
+         sodipodi:role="line">a</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16.69721794px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:130.99999428%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       x="118.39632"
+       y="50.642334"
+       id="text4239-4"
+       sodipodi:linespacing="130.99999%"
+       transform="scale(1.0527183,0.94992174)"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/alter-retries.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4241-6"
+         x="118.39632"
+         y="50.642334">2</tspan></text>
+    <text
+       transform="scale(0.97788511,1.022615)"
+       sodipodi:linespacing="130.99999%"
+       id="text3159-0-2"
+       y="40.27084"
+       x="135.16794"
+       style="font-size:40.54784012px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:130.99999428%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       xml:space="preserve"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/alter-retries.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         style="font-size:26.68774986px;fill:#ffffff;fill-opacity:1"
+         y="40.27084"
+         x="135.16794"
+         id="tspan3161-2-8"
+         sodipodi:role="line">= 5</tspan></text>
+    <text
+       transform="matrix(0.84757702,-0.00137164,0.00113607,1.1798319,0,0)"
        sodipodi:linespacing="130.99999%"
        id="text3163-3-3"
-       y="235.51793"
-       x="421.23895"
-       style="font-size:60.77370453px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:130.99999428%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       y="135.84538"
+       x="146.41476"
+       style="font-size:95.68241119px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:130.99999428%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
        xml:space="preserve"
-       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/T1.png"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/alter-retries.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
-         style="font-size:30.38685226px;fill:#da4939;fill-opacity:1;stroke:none"
-         y="235.51793"
-         x="421.23895"
+         style="font-size:37.7857132px;fill:#da4939;fill-opacity:1;stroke:none"
+         y="135.84538"
+         x="146.41476"
          id="tspan3165-9-2"
          sodipodi:role="line">T2</tspan></text>
     <path
        inkscape:connector-curvature="0"
-       id="path3167-1-9"
-       d="m 384.64081,228.54212 c 9.75928,0.18844 10.14964,0.19597 10.14964,0.19597"
-       style="fill:none;stroke:#6d9dbe;stroke-width:0.60947007px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
-       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/T1.png"
+       id="path3157"
+       d="M 18.986745,107.62865 489.08407,105.79769"
+       style="fill:none;stroke:#6d9dbe;stroke-width:1.60662079px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/alter-retries.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <path
        inkscape:connector-curvature="0"
-       id="path6585-4-2-1-3"
-       d="m 380.1406,227.58388 -129.69236,0.41351"
-       style="fill:none;stroke:#a5c261;stroke-width:1.0378319;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;stroke-dashoffset:0;marker-start:none;marker-end:url(#marker5850B);display:inline"
-       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/T1.png"
+       id="path3167"
+       d="M 64.071635,116.25187 C 64.288397,98.756323 64.297067,98.056488 64.297067,98.056488"
+       style="fill:none;stroke:#6d9dbe;stroke-width:0.95955259px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/alter-retries.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3167-1"
+       d="m 141.57253,115.80914 c 0.21676,-17.495591 0.22542,-18.19539 0.22542,-18.19539"
+       style="fill:none;stroke:#6d9dbe;stroke-width:0.95955259px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/alter-retries.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3167-1-9"
+       d="m 230.71277,115.95116 c 0.21677,-17.495583 0.22544,-18.1954 0.22544,-18.1954"
+       style="fill:none;stroke:#6d9dbe;stroke-width:0.95955259px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/alter-retries.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90" />
     <text
-       transform="scale(1.0079132,0.99214893)"
+       transform="matrix(0.84757702,-0.00137164,0.00113607,1.1798319,0,0)"
        sodipodi:linespacing="130.99999%"
-       id="text3159-1-1-9"
-       y="222.46431"
-       x="277.90137"
-       style="font-size:64.89581299px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:130.99999428%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       id="text3163-3-3-1"
+       y="135.87946"
+       x="254.91936"
+       style="font-size:95.68241119px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:130.99999428%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
        xml:space="preserve"
-       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/T1.png"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/alter-retries.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
-         style="font-size:13.08198357px"
-         y="222.46431"
-         x="277.90137"
-         id="tspan3161-1-0-5"
+         style="font-size:37.7857132px;fill:#da4939;fill-opacity:1;stroke:none"
+         y="135.87946"
+         x="254.91936"
+         id="tspan3165-9-2-2"
+         sodipodi:role="line">T2</tspan></text>
+    <path
+       transform="matrix(0.90141573,0.87053367,1.2330494,-0.74920174,-211.53582,19.135994)"
+       d="m 263.15628,108.01609 c 9.44739,-5.60181 21.25896,0.0427 25.75865,9.29718 2.25487,4.63758 2.824,9.98345 1.79478,15.02161"
+       sodipodi:t0="0.61528146"
+       sodipodi:argument="-11.637458"
+       sodipodi:radius="25.320244"
+       sodipodi:revolution="0.91173601"
+       sodipodi:expansion="1"
+       sodipodi:cy="123.07647"
+       sodipodi:cx="267.14285"
+       id="path7984"
+       style="fill:none;stroke:#a5c261;stroke-width:3.70000005;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none;marker-start:none;marker-end:url(#Arrow2SendRTg)"
+       sodipodi:type="spiral"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/alter-retries.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       transform="matrix(0.84757702,-0.00137164,0.00113607,1.1798319,0,0)"
+       sodipodi:linespacing="130.99999%"
+       id="text3163-4"
+       y="134.48883"
+       x="373.27374"
+       style="font-size:95.68241119px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:130.99999428%;letter-spacing:0px;word-spacing:0px;fill:#cc7833;fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       xml:space="preserve"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/alter-retries.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         style="font-size:37.7857132px;fill:#cc7833;fill-opacity:1"
+         y="134.48883"
+         x="373.27374"
+         id="tspan3165-2"
+         sodipodi:role="line">T1</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path3167-8"
+       d="m 334.91364,115.82724 c 0.21676,-17.49555 0.22543,-18.195385 0.22543,-18.195385"
+       style="fill:none;stroke:#6d9dbe;stroke-width:0.95955259px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/alter-retries.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       transform="scale(0.94542065,1.0577302)"
+       sodipodi:linespacing="130.99999%"
+       id="text3159-8-5-4"
+       y="185.99527"
+       x="330.17874"
+       style="font-size:78.10151672px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:130.99999428%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       xml:space="preserve"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/alter-retries.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         style="font-size:17.31845284px;fill:#ffffff;fill-opacity:1"
+         y="185.99527"
+         x="330.17874"
+         id="tspan3161-0-0-0"
+         sodipodi:role="line">commit</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path3167-1-9-2"
+       d="m 416.29903,115.29873 c 0.21676,-17.495591 0.22543,-18.195408 0.22543,-18.195408"
+       style="fill:none;stroke:#6d9dbe;stroke-width:0.95955259px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/alter-retries.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       transform="matrix(0.84757702,-0.00137164,0.00113607,1.1798319,0,0)"
+       sodipodi:linespacing="130.99999%"
+       id="text3163-3-3-1-4"
+       y="135.58147"
+       x="473.88098"
+       style="font-size:95.68241119px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:130.99999428%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       xml:space="preserve"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/alter-retries.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         style="font-size:37.7857132px;fill:#da4939;fill-opacity:1;stroke:none"
+         y="135.58147"
+         x="473.88098"
+         id="tspan3165-9-2-2-1"
+         sodipodi:role="line">T2</tspan></text>
+    <text
+       transform="scale(0.93227706,1.0726425)"
+       sodipodi:linespacing="130.99999%"
+       id="text3159-06-8"
+       y="40.733463"
+       x="222.34686"
+       style="font-size:46.35510254px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:130.99999428%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       xml:space="preserve"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/alter-retries.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         style="font-size:30.50997543px;fill:#ffffff;fill-opacity:1"
+         y="40.733463"
+         x="222.34686"
+         id="tspan3161-6-0"
+         sodipodi:role="line">a</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16.69721794px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:130.99999428%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       x="209.01932"
+       y="54.126675"
+       id="text4239-4-9"
+       sodipodi:linespacing="130.99999%"
+       transform="scale(1.0527183,0.94992174)"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/alter-retries.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4241-6-2"
+         x="209.01932"
+         y="54.126675">2</tspan></text>
+    <text
+       transform="scale(0.97788511,1.022615)"
+       sodipodi:linespacing="130.99999%"
+       id="text3159-0-2-9"
+       y="43.507507"
+       x="232.72604"
+       style="font-size:40.54784012px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:130.99999428%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       xml:space="preserve"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/alter-retries.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         style="font-size:26.68774986px;fill:#ffffff;fill-opacity:1"
+         y="43.507507"
+         x="232.72604"
+         id="tspan3161-2-8-3"
+         sodipodi:role="line">= 5</tspan></text>
+    <text
+       transform="scale(0.93227706,1.0726425)"
+       sodipodi:linespacing="130.99999%"
+       id="text3159-7"
+       y="40.340137"
+       x="320.99103"
+       style="font-size:46.35510254px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:130.99999428%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       xml:space="preserve"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/alter-retries.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         style="font-size:30.50997543px;fill:#ffffff;fill-opacity:1"
+         y="40.340137"
+         x="320.99103"
+         id="tspan3161-69"
+         sodipodi:role="line">a</tspan></text>
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/alter-retries.png"
+       xml:space="preserve"
+       style="font-size:18.30789185px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:130.99999428%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       x="272.53433"
+       y="58.265251"
+       id="text4239-41"
+       sodipodi:linespacing="130.99999%"
+       transform="scale(1.1425858,0.8752078)"><tspan
+         sodipodi:role="line"
+         id="tspan4241-4"
+         x="272.53433"
+         y="58.265251">1</tspan></text>
+    <text
+       transform="scale(0.97788511,1.022615)"
+       sodipodi:linespacing="130.99999%"
+       id="text3159-0-5"
+       y="43.094944"
+       x="326.76953"
+       style="font-size:40.54784012px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:130.99999428%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       xml:space="preserve"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/alter-retries.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         style="font-size:26.68774986px;fill:#ffffff;fill-opacity:1"
+         y="43.094944"
+         x="326.76953"
+         id="tspan3161-2-6"
+         sodipodi:role="line">=3</tspan></text>
+    <text
+       transform="scale(0.93227706,1.0726425)"
+       sodipodi:linespacing="130.99999%"
+       id="text3159-06-8-4"
+       y="40.494724"
+       x="414.52853"
+       style="font-size:46.35510254px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:130.99999428%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       xml:space="preserve"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/alter-retries.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         style="font-size:30.50997543px;fill:#ffffff;fill-opacity:1"
+         y="40.494724"
+         x="414.52853"
+         id="tspan3161-6-0-3"
+         sodipodi:role="line">a</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16.69721794px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:130.99999428%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       x="379.21277"
+       y="53.857079"
+       id="text4239-4-9-1"
+       sodipodi:linespacing="130.99999%"
+       transform="scale(1.0527183,0.94992174)"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/alter-retries.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4241-6-2-5"
+         x="379.21277"
+         y="53.857079">2</tspan></text>
+    <text
+       transform="scale(0.97788511,1.022615)"
+       sodipodi:linespacing="130.99999%"
+       id="text3159-0-2-9-5"
+       y="43.25708"
+       x="415.94431"
+       style="font-size:40.54784012px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:130.99999428%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       xml:space="preserve"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/alter-retries.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         style="font-size:26.68774986px;fill:#ffffff;fill-opacity:1"
+         y="43.25708"
+         x="415.94431"
+         id="tspan3161-2-8-3-3"
+         sodipodi:role="line">= 5</tspan></text>
+    <text
+       transform="matrix(0.84757705,-0.00137164,0.00113607,1.1798319,0,0)"
+       sodipodi:linespacing="130.99999%"
+       id="text3163-5"
+       y="386.84375"
+       x="59.581249"
+       style="font-size:95.68241119px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:130.99999428%;letter-spacing:0px;word-spacing:0px;fill:#cc7833;fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       xml:space="preserve"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/alter-retries.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         style="font-size:37.7857132px;fill:#cc7833;fill-opacity:1"
+         y="386.84375"
+         x="59.581249"
+         id="tspan3165-4"
+         sodipodi:role="line">T1</tspan></text>
+    <text
+       transform="scale(0.93227706,1.0726425)"
+       sodipodi:linespacing="130.99999%"
+       id="text3159-2"
+       y="316.05151"
+       x="41.826927"
+       style="font-size:46.35510253999999719px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:130.99999428000000989%;letter-spacing:0px;word-spacing:0px;fill:url(#radialGradient6272);fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       xml:space="preserve"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/alter-retries.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         style="font-size:30.50997543000000078px;fill:url(#radialGradient6272);fill-opacity:1"
+         y="316.05151"
+         x="41.826927"
+         id="tspan3161-60"
+         sodipodi:role="line">a</tspan></text>
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/alter-retries.png"
+       xml:space="preserve"
+       style="font-size:18.30789185000000074px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:130.99999428000000989%;letter-spacing:0px;word-spacing:0px;fill:url(#radialGradient6270);fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       x="44.754154"
+       y="396.17331"
+       id="text4239-6"
+       sodipodi:linespacing="130.99999%"
+       transform="scale(1.1425858,0.8752078)"><tspan
+         sodipodi:role="line"
+         id="tspan4241-61"
+         x="44.754154"
+         y="396.17331"
+         style="fill-opacity:1;fill:url(#radialGradient6270)">1</tspan></text>
+    <text
+       transform="scale(0.97788512,1.022615)"
+       sodipodi:linespacing="130.99999%"
+       id="text3159-0-0"
+       y="332.29446"
+       x="60.625332"
+       style="font-size:40.54784011999999649px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:130.99999428000000989%;letter-spacing:0px;word-spacing:0px;fill:url(#radialGradient6268);fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       xml:space="preserve"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/alter-retries.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         style="font-size:26.68774986000000027px;fill:url(#radialGradient6268);fill-opacity:1"
+         y="332.29446"
+         x="60.625332"
+         id="tspan3161-2-7"
+         sodipodi:role="line">=-2</tspan></text>
+    <text
+       transform="scale(0.93227706,1.0726425)"
+       sodipodi:linespacing="130.99999%"
+       id="text3159-06-87"
+       y="315.2261"
+       x="125.64794"
+       style="font-size:46.35510253999999719px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:130.99999428000000989%;letter-spacing:0px;word-spacing:0px;fill:url(#radialGradient6266);fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       xml:space="preserve"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/alter-retries.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         style="font-size:30.50997543000000078px;fill:url(#radialGradient6266);fill-opacity:1"
+         y="315.2261"
+         x="125.64794"
+         id="tspan3161-6-2"
+         sodipodi:role="line">a</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:16.69721794000000159px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:130.99999428000000989%;letter-spacing:0px;word-spacing:0px;fill:url(#radialGradient6264);fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       x="123.38368"
+       y="364.08118"
+       id="text4239-4-5"
+       sodipodi:linespacing="130.99999%"
+       transform="scale(1.0527183,0.94992174)"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/alter-retries.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         sodipodi:role="line"
+         id="tspan4241-6-5"
+         x="123.38368"
+         y="364.08118"
+         style="fill-opacity:1;fill:url(#radialGradient6264)">2</tspan></text>
+    <text
+       transform="scale(0.97788512,1.022615)"
+       sodipodi:linespacing="130.99999%"
+       id="text3159-0-2-4"
+       y="331.42868"
+       x="140.53697"
+       style="font-size:40.54784011999999649px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:130.99999428000000989%;letter-spacing:0px;word-spacing:0px;fill:url(#radialGradient6262);fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       xml:space="preserve"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/alter-retries.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         style="font-size:26.68774986000000027px;fill:url(#radialGradient6262);fill-opacity:1"
+         y="331.42868"
+         x="140.53697"
+         id="tspan3161-2-8-7"
+         sodipodi:role="line">= 5</tspan></text>
+    <text
+       transform="matrix(0.84757705,-0.00137164,0.00113607,1.1798319,0,0)"
+       sodipodi:linespacing="130.99999%"
+       id="text3163-3-3-8"
+       y="388.21219"
+       x="152.27098"
+       style="font-size:95.68241119px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:130.99999428%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       xml:space="preserve"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/alter-retries.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         style="font-size:37.7857132px;fill:#da4939;fill-opacity:1;stroke:none"
+         y="388.21219"
+         x="152.27098"
+         id="tspan3165-9-2-3"
+         sodipodi:role="line">T2</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path3157-06"
+       d="M 24.237049,405.37101 494.33438,403.54005"
+       style="fill:none;stroke:#6d9dbe;stroke-width:1.60662079px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/alter-retries.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3167-5"
+       d="m 69.321939,413.99423 c 0.216762,-17.49554 0.225432,-18.19538 0.225432,-18.19538"
+       style="fill:none;stroke:#6d9dbe;stroke-width:0.95955259px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/alter-retries.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <path
+       inkscape:connector-curvature="0"
+       id="path3167-1-1"
+       d="m 146.82284,413.5515 c 0.21676,-17.49559 0.22542,-18.19539 0.22542,-18.19539"
+       style="fill:none;stroke:#6d9dbe;stroke-width:0.95955259px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/alter-retries.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       transform="matrix(0.84757705,-0.00137164,0.00113607,1.1798319,0,0)"
+       sodipodi:linespacing="130.99999%"
+       id="text3163-4-2"
+       y="386.7067"
+       x="251.03394"
+       style="font-size:95.68241119px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:130.99999428%;letter-spacing:0px;word-spacing:0px;fill:#cc7833;fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       xml:space="preserve"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/alter-retries.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         style="font-size:37.7857132px;fill:#cc7833;fill-opacity:1"
+         y="386.7067"
+         x="251.03394"
+         id="tspan3165-2-4"
+         sodipodi:role="line">T1</tspan></text>
+    <path
+       inkscape:connector-curvature="0"
+       id="path3167-8-8"
+       d="m 231.59252,413.5696 c 0.21676,-17.49555 0.22543,-18.19538 0.22543,-18.19538"
+       style="fill:none;stroke:#6d9dbe;stroke-width:0.95955259px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;display:inline"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/alter-retries.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90" />
+    <text
+       transform="scale(0.94542067,1.0577302)"
+       sodipodi:linespacing="130.99999%"
+       id="text3159-8-5-4-8"
+       y="466.81174"
+       x="127.96369"
+       style="font-size:78.10151672px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:130.99999428%;letter-spacing:0px;word-spacing:0px;fill:url(#linearGradient6294);fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       xml:space="preserve"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/alter-retries.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         style="font-size:17.31845284px;fill:url(#linearGradient6294);fill-opacity:1"
+         y="466.81174"
+         x="127.96369"
+         id="tspan3161-0-0-0-8"
          sodipodi:role="line">commit</tspan></text>
     <text
-       transform="scale(1.0764513,0.92897839)"
+       transform="scale(0.93227706,1.0726425)"
        sodipodi:linespacing="130.99999%"
-       id="text3159-8-5"
-       y="251.72833"
-       x="192.9091"
-       style="font-size:49.6070137px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:130.99999428%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       id="text3159-7-1"
+       y="317.91852"
+       x="210.16438"
+       style="font-size:46.35510254px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:130.99999428%;letter-spacing:0px;word-spacing:0px;fill:url(#radialGradient6254);fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
        xml:space="preserve"
-       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/T1.png"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/alter-retries.png"
        inkscape:export-xdpi="90"
        inkscape:export-ydpi="90"><tspan
-         style="font-size:32.65031433px"
-         y="251.72833"
-         x="192.9091"
-         id="tspan3161-0-0"
+         style="font-size:30.50997543px;fill:url(#radialGradient6254);fill-opacity:1"
+         y="317.91852"
+         x="210.16438"
+         id="tspan3161-69-7"
          sodipodi:role="line">a</tspan></text>
+    <text
+       inkscape:export-ydpi="90"
+       inkscape:export-xdpi="90"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/alter-retries.png"
+       xml:space="preserve"
+       style="font-size:18.30789185px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:130.99999428%;letter-spacing:0px;word-spacing:0px;fill:url(#radialGradient6252);fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       x="182.10689"
+       y="398.46146"
+       id="text4239-41-0"
+       sodipodi:linespacing="130.99999%"
+       transform="scale(1.1425858,0.8752078)"><tspan
+         sodipodi:role="line"
+         id="tspan4241-4-7"
+         x="182.10689"
+         y="398.46146"
+         style="fill:url(#radialGradient6252);fill-opacity:1">1</tspan></text>
+    <text
+       transform="scale(0.97788512,1.022615)"
+       sodipodi:linespacing="130.99999%"
+       id="text3159-0-5-6"
+       y="334.25278"
+       x="221.11177"
+       style="font-size:40.54784012px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:130.99999428%;letter-spacing:0px;word-spacing:0px;fill:url(#radialGradient6250);fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       xml:space="preserve"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/alter-retries.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         style="font-size:26.68774986px;fill:url(#radialGradient6250);fill-opacity:1"
+         y="334.25278"
+         x="221.11177"
+         id="tspan3161-2-6-8"
+         sodipodi:role="line">=3</tspan></text>
+    <text
+       transform="scale(0.94542067,1.0577302)"
+       sodipodi:linespacing="130.99999%"
+       id="text3159-8-5-4-8-6"
+       y="468.37354"
+       x="214.7413"
+       style="font-size:78.10151672px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:130.99999428%;letter-spacing:0px;word-spacing:0px;fill:url(#linearGradient6322);fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       xml:space="preserve"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/alter-retries.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         style="font-size:17.31845284px;fill:url(#linearGradient6322);fill-opacity:1"
+         y="468.37354"
+         x="214.7413"
+         id="tspan3161-0-0-0-8-7"
+         sodipodi:role="line">commit</tspan></text>
+    <text
+       transform="scale(0.94542067,1.0577302)"
+       sodipodi:linespacing="130.99999%"
+       id="text3159-8-5-4-3"
+       y="180.69554"
+       x="414.95392"
+       style="font-size:78.10151672px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:130.99999428%;letter-spacing:0px;word-spacing:0px;fill:#ffffff;fill-opacity:1;stroke:none;display:inline;font-family:Ubuntu;-inkscape-font-specification:Ubuntu"
+       xml:space="preserve"
+       inkscape:export-filename="/home/ronen/code/clojure-intro-revamped/img/alter-retries.png"
+       inkscape:export-xdpi="90"
+       inkscape:export-ydpi="90"><tspan
+         style="font-size:17.31845284px;fill:#ffffff;fill-opacity:1"
+         y="180.69554"
+         x="414.95392"
+         id="tspan3161-0-0-0-2"
+         sodipodi:role="line">commit</tspan></text>
   </g>
 </svg>
