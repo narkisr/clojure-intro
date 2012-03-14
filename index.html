@@ -65,9 +65,9 @@
 		    :keyword
 		    'symbol
 	  </pre>
-      </div>
+	</div>
 
-      <div id="functions" class="step title" data-x="1000" data-y="-2225" data-rotate="90">
+	<div id="functions" class="step title" data-x="1000" data-y="-2225" data-rotate="90">
 	  <b id="functions">&lambda; Functions</b>
 	</div>
 
@@ -75,39 +75,39 @@
 	   <pre class="brush: clojure;">
 		(def plus1 (fn [x] (+ 1 x))) 
 		(defn plus1 [x] (+ 1 x))
-        </pre>
-      </div>
+	  </pre>
+	</div>
 
-       <div id="code first-class" class="step" data-x="500" data-y="-2300" data-rotate="180"> 
+	 <div id="code first-class" class="step" data-x="500" data-y="-2300" data-rotate="180"> 
 	     <pre class="brush: clojure;">
-              (defn add-with [f x]
-                "applies f on x"
-                 (f x))
+		  (defn add-with [f x]
+		    "applies f on x"
+		     (f x))
 
-             (add-with plus1 2); 3 
-             (add-with #(+ 1 %) 2); 3
-           </pre>
-      </div>
+		 (add-with plus1 2); 3 
+		 (add-with #(+ 1 %) 2); 3
+	     </pre>
+	</div>
 
-      <div id="namespcases" class="step title" data-x="1000" data-y="-2700" data-rotate="90">
+	<div id="namespcases" class="step title" data-x="1000" data-y="-2700" data-rotate="90">
 	  <b>Namespaces</b>
 	</div>
 
-      <div id="code namespaces" class="step" data-x="500" data-y="-2700" data-rotate="180"> 
+	<div id="code namespaces" class="step" data-x="500" data-y="-2700" data-rotate="180"> 
 	     <pre class="brush: clojure;">
-             (ns intro
-              (:require [clojure.string :as str])
-              (:use
-               (clojure.contrib 
-               (json :only [read-json])))) 
-          </pre>
-      </div>
+		 (ns intro
+		  (:require [clojure.string :as str])
+		  (:use
+		   (clojure.contrib 
+		   (json :only [read-json])))) 
+	    </pre>
+	</div>
 
 	<div id="datastructures" class="step title" data-x="-3500" data-y="-1500" data-rotate="90" data-scale="3"> 
 	  <div id="container">
 	    <div>
 	     <img src="img/ds-title.png" /> 
-          </div>
+	    </div>
 	    <div style="position: absolute; left: -20px; top: -93px;">
 		<b>Datastuctures</b>
 	    </div>
@@ -118,57 +118,57 @@
 	  <p> <div class="skewing">immutable</div>,
 	  <div class="rotating">persistent</div> and <div class="scaling">asymptotic</div> equivalent to mutable ds </p>
 	</div>
-	
-      <!-- immutable lists -->
-      <div id="code immutable-list" class="step " data-x="-3300" data-y="-2800" data-scale="1" data-rotate="90"> 
+
+	<!-- immutable lists -->
+	<div id="code immutable-list" class="step " data-x="-3300" data-y="-2800" data-scale="1" data-rotate="90"> 
 	     <pre class="brush: clojure;">
-             (def a (list 1 2)) 
+		 (def a (list 1 2)) 
 
-             (def b (cons 3 a))
-            </pre>
-      </div>
+		 (def b (cons 3 a))
+		</pre>
+	</div>
 
-      <div id="1-2-list" class="step" data-x="-3600" data-y="-3200" data-scale="1" data-rotate="90">  
+	<div id="1-2-list" class="step" data-x="-3600" data-y="-3200" data-scale="1" data-rotate="90">  
 	     <img src="img/1-2-list.png" /> 
 	</div>
 
-      <div id="1-2-3-list" class="step" data-x="-3600" data-y="-2600" data-scale="1" data-rotate="90">  
+	<div id="1-2-3-list" class="step" data-x="-3600" data-y="-2600" data-scale="1" data-rotate="90">  
 	  <div id="container">
 	     <img src="img/1-2-3-list.png" /> 
 	  </div>
 	</div>
 
 
-      <!--Immutable vectors -->
-      <div id="code immutable-vector" class="step " data-x="-4000" data-y="-2800" data-scale="1" data-rotate="90"> 
+	<!--Immutable vectors -->
+	<div id="code immutable-vector" class="step " data-x="-4000" data-y="-2800" data-scale="1" data-rotate="90"> 
 	     <pre class="brush: clojure;">
-              (def a (into [] (range 32)))
+		  (def a (into [] (range 32)))
 
-              (def b (conj a 33))
+		  (def b (conj a 33))
 
-              (def c (conj b (range (- 1025 33))) 
-            </pre>
-      </div>
+		  (def c (conj b (range (- 1025 33))) 
+		</pre>
+	</div>
 
-      <div id="vectore-32" class="step" data-x="-4300" data-y="-3600" data-rotate="90">  
+	<div id="vectore-32" class="step" data-x="-4300" data-y="-3600" data-rotate="90">  
 	     <img src="img/vector-32.png" /> 
 	</div>
 
-      <div id="vectore-33" class="step" data-x="-4300" data-y="-3000" data-rotate="90">  
+	<div id="vectore-33" class="step" data-x="-4300" data-y="-3000" data-rotate="90">  
 	     <img src="img/vector-33.png" /> 
 	</div>
 
-      <div id="vectore-1024" class="step" data-x="-4300" data-y="-2200" data-rotate="90">  
+	<div id="vectore-1024" class="step" data-x="-4300" data-y="-2200" data-rotate="90">  
 	     <img src="img/vector-1024.png" /> 
 	</div>
 
 
 	<!--Sequences-->
-      <div id="sequences" class="step title" data-x="3500" data-y="1500" data-rotate="180" data-scale="7"> 
+	<div id="sequences" class="step title" data-x="3500" data-y="1500" data-rotate="180" data-scale="7"> 
 	  <div id="container">
 	    <div>
 	     <img src="img/fibonachi.png" /> 
-          </div>
+	    </div>
 	    <div style="position: absolute; left: -20px; top: -60px;">
 		<b>Sequences</b>
 	    </div>
@@ -181,12 +181,12 @@
 	  Very usefull in <b>stream processing</b> 
 	</div>
 
-      <div id="code seq-ifc" class="step " data-x="4000" data-y="1400" data-z="-1100" data-scale="1" data-rotate="180"> 
+	<div id="code seq-ifc" class="step " data-x="4000" data-y="1400" data-z="-1100" data-scale="1" data-rotate="180"> 
 	     <pre class="brush: java;">
 package clojure.lang;
 
 public interface ISeq extends 
-             IPersistentCollection {
+		 IPersistentCollection {
 
 Object first(); // first item
 
@@ -197,27 +197,27 @@ ISeq more();
 ISeq cons(Object o);
 
 }   
-          </pre>
-      </div>
+	    </pre>
+	</div>
 
-      <div id="code seq-basics" class="step" data-x="3400" data-y="1400" data-z="-1200" data-rotate="180"> 
+	<div id="code seq-basics" class="step" data-x="3400" data-y="1400" data-z="-1200" data-rotate="180"> 
 	     <pre class="brush: clojure;">
-             (def a [2 3])
+		 (def a [2 3])
 
-             (first a); 2
+		 (first a); 2
 
-             (rest a); '(3)
+		 (rest a); '(3)
 
-             (cons 1 a); '(1 2 3)
-            </pre>
-      </div>
+		 (cons 1 a); '(1 2 3)
+		</pre>
+	</div>
 
-      <div id="natural-title" class="step title" data-x="3300" data-y="1400" data-rotate="180" data-z="-1400"> 
+	<div id="natural-title" class="step title" data-x="3300" data-y="1400" data-rotate="180" data-z="-1400"> 
 	  <span class="Unicode">ℕ</span> = {1,2,..}
 	 </div>
 
 
-      <div id="code natural-numbers" class="step" data-x="2800" data-y="1400" data-z="-1600" data-rotate="180"> 
+	<div id="code natural-numbers" class="step" data-x="2800" data-y="1400" data-z="-1600" data-rotate="180"> 
 	     <pre class="brush: clojure;">
 (def n (iterate inc 0))
 
@@ -226,14 +226,14 @@ ISeq cons(Object o);
 (take 5 (map #(* % %) n)); '(0 1 4 9 16)
 
 (reduce + (take 5 n)); 10 
-            </pre>
-      </div>
+		</pre>
+	</div>
 
-      <div id="couch-title" class="step" data-x="3000" data-y="1900" data-z="-1600" data-rotate="360">  
+	<div id="couch-title" class="step" data-x="3000" data-y="1900" data-z="-1600" data-rotate="360">  
 	     <img src="img/couchDB.png" /> 
 	</div>
 
-      <div id="code changes-stream" class="step" data-x="4000" data-y="1900" data-z="-1400" data-rotate="360"> 
+	<div id="code changes-stream" class="step" data-x="4000" data-y="1900" data-z="-1400" data-rotate="360"> 
 	     <pre class="brush: javascript;">
 {"results":[
  {"seq":2,
@@ -250,8 +250,8 @@ ISeq cons(Object o);
   "changes":
   [{"rev":"1-3168fe416bb182276433c"}]}
   ...
-            </pre>
-      </div>
+		</pre>
+	</div>
 
 <div id="code byte-seq" class="step" data-x="4800" data-y="1900" data-z="-1200" data-rotate="360"> 
 	     <pre class="brush: clojure;">
@@ -260,30 +260,30 @@ ISeq cons(Object o);
    into: (97 98 99 100 10 101 102 ..)"
   (take-while #(not= -1 %) 
     (repeatedly #(. input read))))
-            </pre>
-      </div>
+		</pre>
+	</div>
 
 <div id="code chars" class="step" data-x="5500" data-y="1900" data-z="-1000" data-rotate="360"> 
 	     <pre class="brush: clojure;">
 ; (a b c d \newline f g ..)
 (map char '(97 98 99 100 10 101 102 ..))
-            </pre>
-      </div>
+		</pre>
+	</div>
 
 <div id="code partition" class="step" data-x="5000" data-y="2300" data-z="-1200" data-rotate="180"> 
 	     <pre class="brush: clojure;">
 ; ((a b c d) (\newline) (f g) ..)
 (partition-by #(= \newline % )
   (a b c d \newline f g ..))
-            </pre>
-      </div>
+		</pre>
+	</div>
 
 <div id="code into-string" class="step" data-x="4500" data-y="2300" data-z="-1400" data-rotate="180"> 
 	     <pre class="brush: clojure;">
 ; ("abcd" "\n" "fg" ..)
 (map #(reduce (fn [r c] (str r c)) "" %)
   '((a b c d) (\newline) (f g) ..))
-            </pre>
+		</pre>
 </div>
 
 <div id="code filter-blanks" class="step" data-x="3800" data-y="2300" data-z="-1600" data-rotate="180"> 
@@ -291,7 +291,7 @@ ISeq cons(Object o);
 ; ("abcd" "fg" ..)
 (filter (comp not blank?)
   ("abcd" "\n" "fg" ..))
-       </pre>
+	 </pre>
 </div>
 
 <div id="code change-seq" class="step" data-x="4800" data-y="2700" data-z="-1200" data-rotate="360"> 
@@ -299,22 +299,22 @@ ISeq cons(Object o);
 (defn changes-seq []
  "A sequence made of couchdb changes stream"
  (let [url (URL. (couch str changes))
-       conn (. url openConnection)
-       uc (.connect conn)]
+	 conn (. url openConnection)
+	 uc (.connect conn)]
   (filter (comp not blank?)
     (map into-string 
-      (partition-by #(= \newline % )
-        (map char 
-          (bytes-seq 
-            (. uc getInputStream))))))))
-            </pre>
-      </div>
+	(partition-by #(= \newline % )
+	  (map char 
+	    (bytes-seq 
+		(. uc getInputStream))))))))
+		</pre>
+	</div>
 
-      <div id="conccurnecy" class="step title" data-x="-3100" data-y="1500" data-rotate="0" data-scale="7"> 
+	<div id="conccurnecy" class="step title" data-x="-3100" data-y="1500" data-rotate="0" data-scale="7"> 
 	   <b>Concurrency</b>
 	</div>
 
-      <div id="T1" class="step" data-x="-4000" data-y="1900" data-z="0" data-rotate="0" data-scale="1">  
+	<div id="T1" class="step" data-x="-4000" data-y="1900" data-z="0" data-rotate="0" data-scale="1">  
 	     <img src="img/T1.png" /> 
 	</div>
 
@@ -346,15 +346,15 @@ Mutation: send, send-of
 (await a)
 
  @a ; 10
-       </pre>
+	 </pre>
     </div>
 
     <div id="agent-to-atom" class="step" data-x="-2800" data-y="2900" data-z="100" data-rotate="0" data-scale="1" > 
    </div>
 
 	<div id="atom-overview" class="step" data-x="-2800" data-y="3100" data-z="-1200" data-rotate="0" data-scale="1" > 
-         Synchronous non transactional storage with CAS semantics
-         Mutation done by reset!, compare-and-set! and swap!
+	   Synchronous non transactional storage with CAS semantics
+	   Mutation done by reset!, compare-and-set! and swap!
 	</div>
 
      <div id="code atom" class="step" data-x="-2700" data-y="3400" data-z="-1000" data-rotate="0"> 
@@ -368,7 +368,7 @@ Mutation: send, send-of
 (swap! x 3 #(inc %)) ; -> 3
 
  @x ; -> 3
-       </pre>
+	 </pre>
     </div>
 
 
@@ -420,7 +420,7 @@ Mutation done via ref-set, alter and commute
    </div>
 
    <!--Protocols-->
-      <div id="protocols" class="step title" data-x="500" data-y="4800" data-rotate="90" data-scale="7"> 
+	<div id="protocols" class="step title" data-x="500" data-y="4800" data-rotate="90" data-scale="7"> 
 		<b>Protocols</b>
 	</div>
 
@@ -449,28 +449,53 @@ Mutation done via ref-set, alter and commute
  (say [{:keys [name age]}]  
    (str "My is " name " and Im " age " old.")))
    </pre>
-  </div>
+ </div>
 
 
+ <!--Summary-->
+ <div id="summary" class="step title" data-x="4800" data-y="4800" data-rotate="0" data-scale="2"> 
+   <b>Summary</b>
+ </div>
 
 
+ <div id="links" class="step" data-x="4800" data-y="5200" data-rotate="0" data-scale="1" > 
+	 <h1>Resources</h1>
+	   <a href="http://clojure.org/">Clojure website</a>
+	   <a href="https://github.com/clojure/clojure">Clojure source</a>
+	   <a href="http://clojuredocs.org/">Clojure docs</a>
+	   <a href="https://github.com/narkisr/clojure-concurrency">Clojure concurrency</a>
+	  <a href="https://www.ibm.com/developerworks/java/library/j-clojure-protocols/index.html?ca=drs-">Expression problem</a>
+	  <a href="http://en.wikipedia.org/wiki/Snapshot_isolation">Snapshot isolation</a>
+	  <a href="https://github.com/narkisr/couch-fuse">couchfuse</a>
+	  <a href="https://github.com/narkisr/gelfino">gelfino</a>
+ </div>
 
+ <div id="resource" class="step" data-x="4800" data-y="5500" data-rotate="0" data-scale="1" > 
+   <div class="content bullets" ref="summary/01-about/2" style="margin-top: 128.5px; ">
+     <h1>Find me online</h1>
 
+       <a href="http://il.linkedin.com/in/narkisr" >linkedin</a> 
+	 <a href="http://twitter.com/#!/narkisr/">@narkisr</a><br>
+	 <a href="https://github.com/narkisr">github</a> 
+	 <a href="http://narkisr.com">narkisr.com</a>
 
-  <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
-  </div> 
+   </div>
+ </div>
 
-</div>
-<script type="text/javascript" src="js/jquery.min.js"></script>
-<script type="text/javascript" src="js/kerning.js"></script>
-<script src="js/impress.js"></script>
-<script>impress();</script>
-<script type="text/javascript" src="js/shCore.js"></script>
-<script type="text/javascript" src="js/shBrushClojure.js"></script>
-<script type="text/javascript" src="js/shBrushJava.js"></script>
-<script type="text/javascript" src="js/shBrushJScript.js"></script>
-<script type="text/javascript"> 
-  SyntaxHighlighter.defaults['gutter'] = false;
+ <div id="overview" class="step" data-x="3000" data-y="1500" data-scale="10">
+ </div> 
+
+    </div>
+    <script type="text/javascript" src="js/jquery.min.js"></script>
+    <script type="text/javascript" src="js/kerning.js"></script>
+    <script src="js/impress.js"></script>
+    <script>impress();</script>
+    <script type="text/javascript" src="js/shCore.js"></script>
+    <script type="text/javascript" src="js/shBrushClojure.js"></script>
+    <script type="text/javascript" src="js/shBrushJava.js"></script>
+    <script type="text/javascript" src="js/shBrushJScript.js"></script>
+    <script type="text/javascript"> 
+	SyntaxHighlighter.defaults['gutter'] = false;
   SyntaxHighlighter.defaults['smart-tabs'] = false;
   SyntaxHighlighter.defaults['toolbar'] = false;
   SyntaxHighlighter.all();
