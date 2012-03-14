@@ -417,7 +417,43 @@ Mutation done via ref-set, alter and commute
 
    <div id="commute-timeline" class="step" data-x="-1000" data-y="2800" data-z="-1000" data-rotate="0" data-scale="1">  
 	     <img src="img/commute.png/" /> 
+   </div>
+
+   <!--Protocols-->
+      <div id="protocols" class="step title" data-x="500" data-y="4800" data-rotate="90" data-scale="7"> 
+		<b>Protocols</b>
 	</div>
+
+    <div id="change-axis" class="step" data-x="900" data-y="5600" data-rotate="120" data-scale="1">  
+	     <img src="img/exp-problem.png/" /> 
+   </div>
+
+   <div id="code protocol" class="step" data-x="800" data-y="6000" data-rotate="140"> 
+	 <pre class="brush: clojure;">
+(defprotocol Hello
+  "A greeting protocol"
+  (say [this] "just saying hey"))
+   </pre>
+  </div>
+
+
+   <div id="code record" class="step" data-x="700" data-y="5600" data-rotate="120"> 
+	 <pre class="brush: clojure;">
+(defrecord Human [name age]) 
+   </pre>
+  </div>
+
+ <div id="code extend" class="step" data-x="900" data-y="6200" data-rotate="140"> 
+	 <pre class="brush: clojure;">
+(extend-type Human Hello
+ (say [{:keys [name age]}]  
+   (str "My is " name " and Im " age " old.")))
+   </pre>
+  </div>
+
+
+
+
 
 
 
