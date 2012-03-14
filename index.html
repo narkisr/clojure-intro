@@ -48,7 +48,7 @@
 	    <li>Basics</li>
 	    <li>Datastuctures, sequences</li>
 	    <li>Concurrency and state</li>
-	    <li>Abstraction and polymorphism</li> 
+	    <li>Protocols and types</li> 
 	  </ul>
 	</div>
 
@@ -393,7 +393,6 @@ Mutation done via ref-set, alter and commute
 
 <div id="code alter-retry" class="step" data-x="-2600" data-y="2800" data-z="-1000" data-rotate="0"> 
 	 <pre class="brush: clojure;">
-
 (future 
   (dosync
     (deposit -2)
@@ -422,8 +421,9 @@ Mutation done via ref-set, alter and commute
    </div>
 
    <!--Protocols-->
-	<div id="protocols" class="step title" data-x="500" data-y="4800" data-rotate="90" data-scale="7"> 
+	<div id="protocols" class="step title" data-x="500" data-y="4800" data-rotate="90" data-scale="4"> 
 		<b>Protocols</b>
+            <b class="Rotate-90">t y p e s</b>
 	</div>
 
     <div id="change-axis" class="step" data-x="900" data-y="5600" data-rotate="120" data-scale="1">  
@@ -453,6 +453,23 @@ Mutation done via ref-set, alter and commute
    </pre>
  </div>
 
+ <div id="code json-extend" class="step" data-x="900" data-y="6800" data-rotate="120"> 
+	 <pre class="brush: clojure;">
+(defprotocol Write-JSON
+  (write-json [object out escape-unicode?]
+    "Print object to PrintWriter out as JSON"))
+
+(defn date-str [date] 
+  (let [props (juxt :hours :minutes :seconds)]
+    (join ":" (props (bean date)))))
+
+(extend-type java.util.Date Write-JSON 
+  (write-json [this out unicode] 
+    (print out (date-str this))))
+
+(json-str (java.util.Date.)); # 23:11:57 
+   </pre>
+ </div>
 
  <!--Summary-->
  <div id="summary" class="step title" data-x="4800" data-y="4800" data-rotate="0" data-scale="2"> 
