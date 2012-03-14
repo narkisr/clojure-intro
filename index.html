@@ -365,7 +365,7 @@ Mutation: send, send-of
 
 (compare-and-set! x 3 (inc 2)) ; -> false
 
-(swap! x 3 #(inc %)) ; -> 3
+(swap! x #(inc %)) ; -> 3
 
  @x ; -> 3
 	 </pre>
@@ -393,10 +393,12 @@ Mutation done via ref-set, alter and commute
 
 <div id="code alter-retry" class="step" data-x="-2600" data-y="2800" data-z="-1000" data-rotate="0"> 
 	 <pre class="brush: clojure;">
-(dosync
-  (deposit -2)
-  (Thread/sleep 500); taking the time
-  (deposit 5))
+
+(future 
+  (dosync
+    (deposit -2)
+    (Thread/sleep 500); taking the time
+    (deposit 5)))
 
 (future 
   (dosync (deposit 5)))
