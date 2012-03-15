@@ -89,17 +89,32 @@
 	     </pre>
 	</div>
 
-	<div id="namespcases" class="step title" data-x="1000" data-y="-2700" data-rotate="90">
+	<div id="macros" class="step title" data-x="1000" data-y="-2700" data-rotate="90">
+	  <b>Macros</b>
+	</div>
+
+
+	<div id="code macros-when" class="step" data-x="500" data-y="-2700" data-rotate="180"> 
+	     <pre class="brush: clojure;">
+(defmacro when [test & body]
+ "'(if test (do body))"
+  (list 'if test (cons 'do body)))
+		</pre>
+	</div>
+
+
+	<div id="namespcases" class="step title" data-x="1000" data-y="-3200" data-rotate="90">
 	  <b>Namespaces</b>
 	</div>
 
-	<div id="code namespaces" class="step" data-x="500" data-y="-2700" data-rotate="180"> 
+	<div id="code namespaces" class="step" data-x="500" data-y="-3200" data-rotate="180"> 
 	     <pre class="brush: clojure;">
-		 (ns intro
-		  (:require [clojure.string :as str])
-		  (:use
-		   (clojure.contrib 
-		   (json :only [read-json])))) 
+(ns intro
+  (:require [clojure.string :as str])
+  (:use
+    (clojure.contrib (json :only [read-json])))) 
+  
+(str/blank? "")
 	    </pre>
 	</div>
 
@@ -330,7 +345,7 @@ ISeq cons(Object o);
 
 	<div id="agents-overview" class="step" data-x="-3600" data-y="3000" data-z="-1200" data-rotate="0" data-scale="1" > 
 Single value store manipulated via messages (Actor like)
-Mutation: send, send-of
+Mutation: send, send-off
 	</div>
 
      <div id="code agent" class="step" data-x="-3600" data-y="3400" data-z="-1000" data-rotate="0"> 
@@ -338,7 +353,7 @@ Mutation: send, send-of
 (def a (agent 5))
 
 (dotimes [i 5] 
-  ; we use send-of and not send
+  ; we use send-off and not send
   (send-off a #(do (Thread/sleep 100) (inc %))))
 
  @a ; 5 
